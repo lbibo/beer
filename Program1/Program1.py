@@ -179,6 +179,15 @@ def existingUser_loginbutton():
 def enable_new_beer_entry():
     global User_input_entry, input_button, yes_button, no_button
 
+    """Reset input controls"""
+    try:
+        yes_button.grid_forget()
+        no_button.grid_forget()
+        user_input_entry.grid_forget()
+        input_button.grid_forget()
+    except:
+        pass
+
     """Create user input box"""
     User_input_entry.grid(row = 0, sticky = W+S+E)
     User_input_entry.focus_set()
@@ -269,7 +278,6 @@ Is this correct?""" % (str(found_beer[0]).upper())
         enable_beer_found_buttons()
     else:
         print_to_console("Beer not found.  Please try again.")
-        enable_new_beer_entry()
 
     """reset 'disliked_previous' modifier"""
     disliked_previous = ''
@@ -326,10 +334,13 @@ def accept_beer_found(response):
 #Recommend new beer
 def recommend_new():
     global Userfile, yes_button, no_button, recommend_beer, search_exclude, disliked_previous
-
+    
+    """Reset input controls"""
     try:
         yes_button.grid_forget()
         no_button.grid_forget()
+        user_input_entry.grid_forget()
+        input_button.grid_forget()
     except:
         pass
 

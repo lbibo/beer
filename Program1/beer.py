@@ -63,30 +63,30 @@ def pull_userfile_beers(search_exclude, username_directory, Username):
 
         if linecount == 0:
 
-            for key in splitline:
+            for line_item in splitline:
 
-                if key == 'LIKED:':
+                if line_item == 'LIKED:':
                     continue
-                elif key == 'DISLIKED:':
+                elif line_item == 'DISLIKED:':
                     linecount += 1
                     break
-                elif key == '\n':
+                elif line_item == '\n':
                     continue
                 else:
-                    search_exclude[key] = 1
+                    search_exclude[line_item] = 1
 
         elif linecount == 1:
 
-            for key in splitline:
+            for line_item in splitline:
 
-                if key == 'LIKED:':
+                if line_item == 'LIKED:':
                     continue
-                elif key == 'DISLIKED:':
+                elif line_item == 'DISLIKED:':
                     continue
-                elif key == '\n':
+                elif line_item == '\n':
                     continue
                 else:
-                    search_exclude[key] = 2
+                    search_exclude[line_item] = 2
 
         linecount += 1
 
@@ -129,7 +129,7 @@ def new_beer(uas, search_exclude, beer_dictionary):
 
                         for SE_key, code in search_exclude.iteritems():
 
-                            if (int(SE_key) == int(key)) and ((code == 2) or (code == 0)):
+                            if (int(SE_key) == int(key)):
                                 add_beer = False
 
                     else:
@@ -173,6 +173,7 @@ def update_userfile(search_exclude, username_directory, username):
 
     newstring_disliked = ','.join(newstring_list)
     newstring_disliked = 'DISLIKED:,' + newstring_disliked
+
     masterstring = newstring_liked + '\n' + newstring_disliked
 
     file = open(username_directory + username + '.txt', 'w')

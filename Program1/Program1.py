@@ -97,15 +97,18 @@ def existingUser_login(event):
     if programfuncs.check_availableUser(Username, Username_list) is False:
         """read beers from user file into search exclusion list"""
         search_exclude = beer.pull_userfile_beers(search_exclude, username_directory, Username)
+
         """Set global active settings"""
         login_screen_active = False
         has_profile = True
+
         """remove login buttons, update login information"""
         new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
         show_user_button.grid(row = 3, column = 2, sticky = 'e')
         new_entry_button.grid(row = 3, column = 0, sticky = 'w')
         login_buttons.grid_forget()
         print_to_console("Logged in.")
+
         """"Set login header"""
         UserLabelStr.set('Logged in as ' + Username)
     else:
@@ -116,8 +119,10 @@ def existingUser_login(event):
             """Create user file"""
             Userfile = open(username_directory + Username + '.txt', 'w')
             Userfile.close()
+
             """force user to pick initial 'liked' beer"""
             enable_new_beer_entry()
+
             """update login information"""
             UserLabelStr.set('Logged in as ' + Username)
             login_screen_active = False
@@ -136,15 +141,18 @@ def existingUser_loginbutton():
     if programfuncs.check_availableUser(Username, Username_list) is False:
         """read beers from user file into search exclusion list"""
         search_exclude = beer.pull_userfile_beers(search_exclude, username_directory, Username)
+
         """Set global active settings"""
         login_screen_active = False
         has_profile = True
+
         """remove login buttons, update login information"""
-        new_recommend_button.grid(row = 0, column = 0, sticky = 'e')
+        new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
         show_user_button.grid(row = 3, column = 2, sticky = 'e')
         new_entry_button.grid(row = 3, column = 0, sticky = 'w')
         login_buttons.grid_forget()
         print_to_console("Logged in.")
+
         """"Set login header"""
         UserLabelStr.set('Logged in as ' + Username)
     else:
@@ -155,8 +163,10 @@ def existingUser_loginbutton():
             """Create user file"""
             Userfile = open(username_directory + Username + '.txt', 'w')
             Userfile.close()
+
             """force user to pick initial 'liked' beer"""
             enable_new_beer_entry()
+
             """update login information"""
             UserLabelStr.set('Logged in as ' + Username)
             login_screen_active = False
@@ -315,7 +325,7 @@ def accept_beer_found(response):
 
 #Recommend new beer
 def recommend_new():
-    global Userfile, yes_button, no_button, recommend_beer, search_exclude
+    global Userfile, yes_button, no_button, recommend_beer, search_exclude, disliked_previous
 
     try:
         yes_button.grid_forget()
@@ -351,6 +361,8 @@ ABV: %s
 
 Have you tried this beer?""" % (beer_property_list[0], beer_property_list[1], beer_property_list[2])
 
+        disliked_previous = ''
+
     else:
         enable_recommend_buttons1()
 
@@ -366,6 +378,8 @@ IBU: %s
 ABV: %s
 
 Have you tried this beer?""" % (beer_property_list[0], beer_property_list[1], beer_property_list[2])
+
+        disliked_previous = ''
 
     print_to_console(recommend_string)
     #except:
@@ -426,28 +440,37 @@ def accept_beer_recommend(response):
         try:
             """add beer to list of liked beers"""
             search_exclude[recommend_beer] = 1
+
             """update user file"""
             beer.update_userfile(search_exclude, username_directory, Username)
+
             """Clear yes/no buttons"""
             yes_button.grid_forget()
             no_button.grid_forget()
             print_to_console("Beer added to user file.")
+
         except:
             print_to_console("Error 7")
+
     elif response is False:
         try:
             """add beer to list of disliked beers"""
             search_exclude[recommend_beer] = 2
+
             """update user file"""
             beer.update_userfile(search_exclude, username_directory, Username)
+
             """update disliked_previous"""
             disliked_previous = "Previous beer added to 'disliked' list.\n\n"
+
             """remove yes/no buttons, reset user entry"""
             yes_button.grid_forget()
             no_button.grid_forget()
             recommend_new()
+
         except:
             pass
+
     else:
         print_to_console("Error 6")
 
@@ -479,18 +502,17 @@ def new_recommend():
 def show_user():
 
     liked_string = 'Liked beers:\n'
-
-    for key, code in search_exclude.iteritems():
-
-        if code == 1:
-            liked_string += '\n %s' % (beer_dictionary[key])[0].upper()
-
     disliked_string = '\n\nDisliked beers:\n'
 
     for key, code in search_exclude.iteritems():
 
-        if code == 2:
-            disliked_string += '\n %s' % (beer_dictionary[key])[0].upper()
+        if code == 1:
+            liked_beer_list = beer_dictionary[key]
+            liked_string += '\n %s' % (liked_beer_list[0].upper())
+
+        elif code == 2:
+            disliked_beer_list = beer_dictionary[key]
+            disliked_string += '\n %s' % (disliked_beer_list[0].upper())
 
     print_string = liked_string + disliked_string
     print_to_console(print_string)

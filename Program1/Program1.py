@@ -3,6 +3,7 @@ import tkMessageBox
 import os
 import csv
 import random
+
 import beer
 import programfuncs
 
@@ -15,7 +16,7 @@ Username_list = os.listdir(username_directory)
 #create variable that points to location of database
 database = current_directory + '/database.txt'
 #create a dictionary of keys/beers
-dictionary = beer.create_dictionary()
+beer_dictionary = beer.create_beer_dictionary()
 #create list for search exclusion
 search_exclude = {}
 #create string to add to beginning of recommend string to reflect dislike of previous recommendation
@@ -78,17 +79,21 @@ console_output_frame.rowconfigure(0, minsize = int((HEIGHT / 3) * 2), weight = 0
 
 #function to print to console
 def print_to_console(output):
+
     try:
         console_output.set(str(output))
     except:
         console_output.set("Console output error.")
+
     return
 
 #Log in as existing user via "Enter" key
 def existingUser_login(event):
     global Username, search_exclude
+
     x = UserStr.get()
     Username = x.upper()
+
     if programfuncs.check_availableUser(Username, Username_list) is False:
         """read beers from user file into search exclusion list"""
         search_exclude = beer.pull_userfile_beers(search_exclude, username_directory, Username)
@@ -106,6 +111,7 @@ def existingUser_login(event):
     else:
         """Pop up "No User Found." message box."""
         ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % Username)
+
         if ask_new_user == 'yes':
             """Create user file"""
             Userfile = open(username_directory + Username + '.txt', 'w')
@@ -117,13 +123,16 @@ def existingUser_login(event):
             login_screen_active = False
             login_buttons.grid_forget()
             new_entry_button.grid(row = 3, column = 0, sticky = 'w')
+
     return
 
 #Log in as existing user via button
 def existingUser_loginbutton():
     global Username, search_exclude
+
     x = UserStr.get()
     Username = x.upper()
+
     if programfuncs.check_availableUser(Username, Username_list) is False:
         """read beers from user file into search exclusion list"""
         search_exclude = beer.pull_userfile_beers(search_exclude, username_directory, Username)
@@ -141,6 +150,7 @@ def existingUser_loginbutton():
     else:
         """Pop up "No User Found." message box."""
         ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % Username)
+
         if ask_new_user == 'yes':
             """Create user file"""
             Userfile = open(username_directory + Username + '.txt', 'w')
@@ -152,50 +162,51 @@ def existingUser_loginbutton():
             login_screen_active = False
             login_buttons.grid_forget()
             new_entry_button.grid(row = 3, column = 0, sticky = 'w')
+
     return
 
 #Enable user manual 'liked' beer entry
 def enable_new_beer_entry():
     global User_input_entry, input_button, yes_button, no_button
-    """check if yes/no buttons are active and close them.
-    Necessary in order to call function at any point in program"""
-    try:
-        yes_button.grid_forget()
-        no_button.grid_forget()
-        User_input_entry.grid_forget()
-    except:
-        pass
+
     """Create user input box"""
     User_input_entry.grid(row = 0, sticky = W+S+E)
     User_input_entry.focus_set()
     programfuncs.bind_enter(beerapp, input_enter)
+
     """Create user input button"""
     input_button.grid(row = 1, sticky = W+N+E)
     print_to_console("Give me the name of a good beer.  Spelling counts.")
+
     return
 
 #button to send data from input to program/console
 def input_button_click():
     global found_beer, yes_button, no_button, found_key
+
     """get user's input string"""
     input = User_input.get()
     User_input_entry.grid_forget()
     input_button.grid_forget()
+
     """find beer in database containing user's input string"""
     beer_selection_list = []
-    for dictkey, beer_data in dictionary.iteritems():
+    for dictkey, beer_data in beer_dictionary.iteritems():
         name = beer_data[0].lower()
         lower_input = input.lower()
+
         if str(lower_input) in str(name):
             beer_selection_list.append([dictkey, 0])
+
             for userkey, code in search_exclude.iteritems():
                 if str(userkey) == str(dictkey):
                     beer_selection_list.remove([dictkey, 0])
+
     """if there is at lease one beer in the returned list, pick the first one.  Otherwise, try again."""
     if len(beer_selection_list) > 0:
         amount_found = len(beer_selection_list) - 1
         found_key = (beer_selection_list[0])[0]
-        found_beer = dictionary[found_key]
+        found_beer = beer_dictionary[found_key]
         console_response = """Found the following beer:
         
 %s
@@ -206,32 +217,39 @@ Is this correct?""" % (str(found_beer[0]).upper())
     else:
         print_to_console("Beer not found.  Please try again.")
         enable_new_beer_entry()
+
     """reset 'disliked_previous' modifier"""
     disliked_previous = ''
+
     return
 
 #create function for 'Enter/Return' key to call, since it requires an 'event' parameter
 def input_enter(event):
     global found_beer, yes_button, no_button, found_key
+
     """get user's input string"""
     input = User_input.get()
     User_input_entry.grid_forget()
     input_button.grid_forget()
+
     """find beer in database containing user's input string"""
     beer_selection_list = []
-    for dictkey, beer_data in dictionary.iteritems():
+    for dictkey, beer_data in beer_dictionary.iteritems():
         name = beer_data[0].lower()
         lower_input = input.lower()
+
         if str(lower_input) in str(name):
             beer_selection_list.append([dictkey, 0])
+
             for userkey, code in search_exclude.iteritems():
                 if str(userkey) == str(dictkey):
                     beer_selection_list.remove([dictkey, 0])
+
     """if there is at lease one beer in the returned list, pick the first one.  Otherwise, try again."""
     if len(beer_selection_list) > 0:
         amount_found = len(beer_selection_list) - 1
         found_key = (beer_selection_list[0])[0]
-        found_beer = dictionary[found_key]
+        found_beer = beer_dictionary[found_key]
         console_response = """Found the following beer:
         
 %s
@@ -242,24 +260,31 @@ Is this correct?""" % (str(found_beer[0]).upper())
     else:
         print_to_console("Beer not found.  Please try again.")
         enable_new_beer_entry()
+
     """reset 'disliked_previous' modifier"""
     disliked_previous = ''
+
     return
+
 
 #Create yes/no buttons for manual user entry
 def enable_beer_found_buttons():
     global yes_button, no_button
+
     """create "Yes" button"""
     yes_button.grid(row = 0, sticky = W+S+E)
     yes_button.configure(command = lambda: accept_beer_found(True))
+
     """create "No" button"""
     no_button.grid(row = 1, sticky = W+N+E)
     no_button.configure(command = lambda: accept_beer_found(False))
+
     return
 
 #Accepts entry, adds to user file
 def accept_beer_found(response):
     global search_exclude, yes_button, no_button, found_key, average_list, has_profile
+
     if response is True:
         try:
             search_exclude[found_key] = 1
@@ -285,22 +310,26 @@ def accept_beer_found(response):
             pass
     else:
         print_to_console("Error 6")
+
     return
 
 #Recommend new beer
 def recommend_new():
-    global Userfile, yes_button, no_button
-    global recommend_beer, search_exclude
+    global Userfile, yes_button, no_button, recommend_beer, search_exclude
+
     try:
         yes_button.grid_forget()
         no_button.grid_forget()
     except:
         pass
+
     enable_recommend_buttons1()
-    user_average_stats = beer.user_average(search_exclude, dictionary)
+    user_average_stats = beer.user_average(search_exclude, beer_dictionary)
+
     #try:
     """Get a list of beers within the smallest range that meets all user criteria"""
-    new_recommendation_list = beer.new_beer(user_average_stats, search_exclude, dictionary)
+    new_recommendation_list = beer.new_beer(user_average_stats, search_exclude, beer_dictionary)
+
     """Pick a random beer from the returned list"""
     if len(new_recommendation_list) == 0:
         ### No new beer found.  This should never happen unless the variation variables are not increasing properly
@@ -311,7 +340,7 @@ def recommend_new():
         enable_recommend_buttons1()
         random_beer = 0
         recommend_beer = new_recommendation_list[random_beer]
-        beer_property_list = dictionary[recommend_beer]
+        beer_property_list = beer_dictionary[recommend_beer]
         """Create a string to print with the new beer's stats"""
         recommend_string = disliked_previous + """New suggestion, based on your previous entries:
     
@@ -325,7 +354,7 @@ Have you tried this beer?""" % (beer_property_list[0], beer_property_list[1], be
         recommend_length = len(new_recommendation_list) - 1
         random_beer = random.randint(0, recommend_length)
         recommend_beer = new_recommendation_list[random_beer]
-        beer_property_list = dictionary[recommend_beer]
+        beer_property_list = beer_dictionary[recommend_beer]
         """Create a string to print with the new beer's stats"""
         recommend_string = disliked_previous + """New suggestion, based on your previous entries:
     
@@ -334,27 +363,34 @@ IBU: %s
 ABV: %s
 
 Have you tried this beer?""" % (beer_property_list[0], beer_property_list[1], beer_property_list[2])
+
     print_to_console(recommend_string)
     #except:
     #    print_to_console("new_recommendation error.")
+
     return
 
 #Enable yes/no buttons upon new recommendation - "Have you tried it?"
 def enable_recommend_buttons1():
     global yes_button, no_button
+
     """Create yes button"""
     yes_button.grid(row = 0, sticky = W+S+E)
     yes_button.configure(command = lambda: tried_beer(True))
+
     """Create no button"""
     no_button.grid(row = 1, sticky = W+N+E)
     no_button.configure(command = lambda: tried_beer(False))
+
     return
 
 #Ask if user has tried recommended beer
 def tried_beer(response):
     global yes_button, no_button, search_exclude, recommend_beer
+
     yes_button.grid_forget()
     no_button.grid_forget()
+
     if response is True:
         enable_recommend_buttons2()
         print_to_console("Did you like it?")
@@ -362,22 +398,27 @@ def tried_beer(response):
         search_exclude[recommend_beer] = 0
         print_to_console(search_exclude)
         recommend_new()
+
     return
 
 #Enable yes/no buttons upon new recommendation - "Did you like it?"
 def enable_recommend_buttons2():
     global yes_button, no_button
+
     """Create yes button"""
     yes_button.grid(row = 0, sticky = W+S+E)
     yes_button.configure(command = lambda: accept_beer_recommend(True))
+
     """Create no button"""
     no_button.grid(row = 1, sticky = W+N+E)
     no_button.configure(command = lambda: accept_beer_recommend(False))
+
     return
 
 #Accepts entry, adds to user file
 def accept_beer_recommend(response):
     global yes_button, no_button, recommend_beer, has_profile, disliked_previous
+
     if response is True:
         try:
             """add beer to list of liked beers"""
@@ -406,42 +447,58 @@ def accept_beer_recommend(response):
             pass
     else:
         print_to_console("Error 6")
+
     return
 
 #tells program that user wants to enter a new beer into their database
 def new_entry():
     global yes_button, no_button
+
     if login_screen_active is False:
         yes_button.grid_forget()
         no_button.grid_forget()
         enable_new_beer_entry()
+
     return
 
 #tells program to recommend a new beer based on user's preferences
 def new_recommend():
     global yes_button, no_button
+
     if login_screen_active is False:
         yes_button.grid_forget()
         no_button.grid_forget()
         recommend_new()
+
     return
 
 #shows user liked beers
 def show_user():
+
     liked_string = 'Liked beers:\n'
+
     for key, code in search_exclude.iteritems():
+
         if code == 1:
-            liked_string += '\n %s' % (dictionary[key])[0].upper()
+            liked_string += '\n %s' % (beer_dictionary[key])[0].upper()
+
     disliked_string = '\n\nDisliked beers:\n'
+
     for key, code in search_exclude.iteritems():
+
         if code == 2:
-            disliked_string += '\n %s' % (dictionary[key])[0].upper()
+            disliked_string += '\n %s' % (beer_dictionary[key])[0].upper()
+
     print_string = liked_string + disliked_string
     print_to_console(print_string)
 
+    return
+
 #closes window, shuts down program
 def quit_program():
+
     beerapp.destroy()
+
     return
 
 ###Create top bar widgets###
@@ -522,6 +579,8 @@ console_output_label = Label(console_output_frame,
                              wraplength = ((WIDTH / 3) * 2),
                              textvariable = console_output)
 console_output_label.grid(row = 0, sticky = W)
+
+#Set initial console text
 print_to_console("Please log in.  If you don't have a profile, you will be prompted to create one.")
 
 #Create user input box

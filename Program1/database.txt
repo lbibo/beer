@@ -1,1061 +1,1061 @@
-(512) Two,99,9,20
-13 Virtues Hoptimal Results,100,9,20
-21st Amendment Double Trouble Imperial IPA,120,9.8,20
-21st Amendment Hop Crisis,94,9.7,20
-21st Amendment Potrero E.S.B.,28,5,20
-23rd Street Imperial IPA,?,?,20
-5 Seasons American Special Bitter (ASB),?,5.2,20
-5 Seasons Copperhead ESB,?,?,20
-5 Seasons GFYPA,?,8,20
-7venth Sun Mangrove Double IPA,?,9.7,20
-Aardwolf Vulgar Display of Hoppiness,?,8.8,20
-Adirondack Double IPA,?,9,20
-Adnams Broadside,?,4.7,20
-Adnams SSB Suffolk Special Bitter (The Bitter),?,4.5,20
-Alameda Turks Head ESB,48,4.5,20
-Alameda Yellow Wolf Imperial IPA,103,8.2,20
-Alaskan ESB,35,5,20
-Alaskan Hopothermia Double IPA,70,8.5,20
-Alchemist Heady Topper,120,8,20
-Ale Asylum Satisfaction Jacksin,100,8.25,20
-Ale Industries Albino Double Cascadian Ale,99,9,20
-AleSmith Anvil Ale,?,5.5,20
-AleSmith YuleSmith,?,8.5,20
-All Saints Double IPA,75,9.5,20
-Alley Kat Blue Dragon Double IPA,?,7.5,20
-Alley Kat Red Dragon Double IPA,100,7.5,20
-Alpine Beer Bad Boy IPA,?,8,20
-Alpine Beer Exponential Hoppiness,?,10.5,20
-Amherst ESB,?,5.35,20
-Amnesia Dopacetic Imperial IPA,83,7.8,20
-Amnesia Frostys Revenge,60,8,20
-Amnesia The ESB,?,?,20
-Anacortes Extra Special Bitter (ESB),35,5.5,20
-Anderson Valley 20th Anniversary Imperial IPA,?,8.7,20
-Anderson Valley Boont ESB (Formerly Belks ESB),61,6.8,20
-Anderson Valley Heelch O’ Hops,100,8.7,20
-Appalachian ABC ESB,?,5.3,20
-Arbor 500 Minute IPA,?,10.7,20
-Arbor Artisan,?,4.8,20
-Arbor Aurora Arborealis,83,8.5,20
-Arbor HXL IPA,76,8,20
-Arcadia Hop Rocket 11th Anniversary Ale,?,9,20
-Arcadia Hopmouth Double IPA,76,8.1,20
-Arcadia Lake Superior ESB,?,5.5,20
-Argus Clyde’s Ale ESB,?,5.5,20
-Armadillo FUPA,93,8.3,20
-Asheville Roland,22.2,5,20
-Ass Kisser Double IPA,?,9.2,20
-Astoria Bitter Bitch IPA,100,8.2,20
-Atlantic SOB Special Old Bitter Ale,?,5.5,20
-Auburn Alehouse PU 240 Imperial IPA,100,8,20
-Auburn Alehouse ZZ Hop Triple IPA,100,9.4,20
-Avery 14'er ESB,?,5,20
-Avery Eleven,90,9,20
-Avery Ten,?,10,20
-Avery The Maharaja Imperial India Pale Ale,102,10.46,20
-Avery duganA,93,8.5,20
-Aviator Horsepower Double IPA,?,8,20
-Aviator Old BullDog ESB,?,5.8,20
-Back Road Hop Monster IIPA,?,7.1,20
-Backcountry Expedition ESB,?,?,20
-Baird / Ishii / Stone Japanese Green Tea IPA,?,9.2,20
-Ballast Point Dorado Double IPA,?,9.6,20
-Barley Brothers Destroyer India Pale Ale,?,13.75,20
-Barley Browns ESB,?,5.8,20
-Barleys Double Dog Dare IPA,?,10,20
-Barleys Four Seasons Imperial IPA,?,8,20
-Barleys J. Scott Francis ESB,?,6.8,20
-Barons ESB,?,4.7,20
-Barrel House Hopped To Hell IPA,?,10,20
-Barrier Agro-Marine Quadruple IPA,130,12.5,20
-Barrier Antagonist ESB,50,5.8,20
-Barrington ESB,?,?,20
-Batemans XXXB,?,4.8,20
-Bath Barnstormer,?,4.5,20
-Bath Gem (Bottle),?,4.8,20
-Bath Gem (Cask),?,4.1,20
-Bath Rare Hare,?,5.2,20
-Bear Creek Double Jack,65,9.1,20
-Bear Republic Apex,100,7.5,20
-Bear Republic English E.S.B.,32,4.8,20
-Bear Republic Grandmas Homegrown Ale,?,7.8,20
-Bear Republic Hop Rod Rye,80,8,20
-Bear Republic Racer X Strong Ale,110,7.8,20
-Bear Republic Whitby Best Bitter,?,5.9,20
-Beaver Brewing 724,?,?,20
-Beaver Street DeRail IPA,?,7.9,20
-Beer Valley Leafer Madness Imperial Pale Ale,100,9,20
-Beer Works Bay State ESB,?,6,20
-Belhaven St. Andrews Ale,?,4.6,20
-Bellevue ESB,33,5.6,20
-Bells Hopslam,70,10,20
-Bells Kalamazoo Hopsoulution Ale,?,8.4,20
-Bells The Oracle DIPA Ale,?,10.4,20
-Bend Hophead Imperial IPA,?,?,20
-Benny Brew ESB,31,5.5,20
-Big Boss Double IPA,?,9,20
-Big Buck Docs ESB,?,6.7,20
-Big Dogs War Dog Imperial IPA,?,8.6,20
-Big Horse Horse Thief ESB,?,6,20
-Big Rapids Brewing Bus Driver ESB,?,5.2,20
-Big Time Decade India Pale Ale,?,7.8,20
-Big Time Neighsayer Oatmeal Ale,?,?,20
-Big Time Paxtons ESB,?,5.25,20
-Big Time Rainfest ESB,50,6.25,20
-Big Time Tinderstick ESB,?,4.25,20
-Bison ESB,?,?,20
-Black Diamond Rampage Double IPA,?,9.5,20
-Black Sheep Ale,?,4.4,20
-Black Sheep Emmerdale Ale,?,5,20
-Black Sheep Golden Sheep Ale,?,4.7,20
-Black Sheep Monty Pythons Holy Grail,33,4.7,20
-Black Sheep Special Ale,?,4.4,20
-Blackfoot River Blue Collar Pilsner,?,5.8,20
-Blue Canoe Spinal Tap,?,10,20
-Blue Corn ESB,?,6.2,20
-Blue Frog The Big DIPA 3,105,8.4,20
-Blue Frog The Big DIPA,82,8,20
-Blue Hills Imperial Red IPA,?,9,20
-Blue Moon Pine In The Neck,75,7.5,20
-Blue Point Extra Special Bitter,35,5,20
-Blue Point No Apologies Imperial IPA,93,10,20
-Blue Ridge Double Ball n Chain IPA,?,10,20
-Blue Ridge ESB Red Ale,?,4.8,20
-Blue Ridge Rainbow Trout ESB,38,4.7,20
-Bluegrass Homewrecker Double IPA,?,10,20
-Bluegrass James Extra Progressive Bitter,?,7.2,20
-Bluegrass Professor Gessers Mind Numbing Ale,?,9,20
-Boatswain Double IPA,75,8.4,20
-Bobcat Cafe Brickwall Harvest Double IPA,100,9.8,20
-Boneyard Hop Venom,70,8.9,20
-Boneyard Notorious,80,12,20
-Boquébière Hopkins Double I.P.A.,90,9.5,20
-Boulder Beer Mojo Risin,?,10.5,20
-Boulder Beer The Great American Beer Festival 25th Year Beer,?,7.6,20
-Boulevard Double-Wide IPA,?,8.5,20
-Boundary Bay E.S.B.,?,5.6,20
-Boundary Bay ESB (Best Bitter),?,5.6,20
-Boundary Bay Imperial IPA,?,9,20
-Brash The Bollocks,110,12,20
-Brash/Ska Brewing Skankin Dirty,?,9,20
-Breaker 16 Ton IPA,116,10.6,20
-Breckenridge 471 Small Batch ESB,55,7.8,20
-Breckenridge 471 Small Batch IPA,70,9.2,20
-Brew Kettle Dancin Bee,45,4,20
-Brew Kettle EBSB,40,4.5,20
-Brew Kettle Extra Special Bitter,50,4.5,20
-BrewDog Hardcore IPA,?,9,20
-BrewDog Sink the Bismarck,?,41,20
-BrewDog Storm,?,8,20
-Brewdog Mikkeller I Hardcore You,?,9.5,20
-Brewer's Alley Resinator,?,7.2,20
-Brewery Ferment Bookstore Bitter,?,5.5,20
-Brewsters Belly Dancer,?,5.2,20
-Brewsters Daffys Elixir,?,4.2,20
-Brewsters Jezebel,?,4.8,20
-Brewsters Mata Hari,?,4.8,20
-Brewsters Rutterkin,?,4.6,20
-Brickside Chain Breaker,?,8.8,20
-BridgePort ESB,45,6.1,20
-BridgePort Hop Czar Imperial IPA,87,7.5,20
-BridgePort Hop Harvest Ale (2009),60,7,20
-BridgePort Hop Harvest Ale (2011),?,7,20
-Bristol Edge City 1.5 IPA,122,8,20
-Broad Ripple ESB Extra Special Bitter,?,5.6,20
-Broken Tooth Moonflower ESB,?,5.1,20
-Brooklyn Blast,53,9,20
-Broughton Black Douglas,?,5.2,20
-Brownings Louis XVI Guillotine ESB,?,5.7,20
-Bubes Crazy 8,?,8,20
-Bubes ESB,?,6.2,20
-Buckeye Seventy-Six,100,7.9,20
-Bull & Bush Man-Man Double IPA,?,?,20
-Bull & Bush The Tower ESB,?,6,20
-Bullfrog Edgar IPA,?,8,20
-Burnside Alter Ego Imperial IPA,99.5,7.9,20
-Burnside Stock Ale,51,5.8,20
-Burton Bridge Festival Ale,?,5.5,20
-Burton Bridge Hearty Ale,?,5,20
-Butcher's Imperial Prime IPA,?,9,20
-Butte Creek Organic Revolution X Imperial IPA,97,9.1,20
-Calapooia Riverdog ESB,?,5.5,20
-Caledonian Ale Lang Syne,?,4.6,20
-Callys Bad Dog ESB,?,5.2,20
-Canoe River Rock Bitter,?,5.2,20
-Cape Ann Fishermans Greenhorn Double IPA,124,9,20
-Capitol City Double IPA,?,7,20
-Capitol City ESB,?,5.1,20
-Capitol City Imperial IPA,?,9,20
-Captured By Porches Yggdrasil,55,9,20
-Carton 077XX,80,7.8,20
-Cascade Brewing Imperial Bi-Polar Double IPA,70,7.6,20
-Central City Double Crown IPA,?,8.5,20
-Central City Red Betty Imperial IPA,90,9,20
-Central City Red Racer ESB,?,5.5,20
-Central Coast Terrace Hill Double IPA,99,9.5,20
-Chama River Dangerous Intensions,?,9,20
-Chama River Dr. Strangehop,?,8.7,20
-Cheshire Cat Arrogant Brit,33,5.3,20
-Cigar City 110K+OT Batch #3,110,10,20
-Circle Envy Amber,31,4.8,20
-Climax Extra Special Bitter Ale,32,5.5,20
-Clown Shoes Supa Hero IPA,?,8,20
-Coachs Extra Special Bitter,?,?,20
-Coalition Bumps Bitter ESB,55.6,5.5,20
-Coast AYE SB Extra Special Bitter,?,5.8,20
-Coast Boy King Double IPA,?,9.5,20
-Coast Range Extra Special Bitter,?,?,20
-Coast Range India Pale Ale,?,?,20
-Coddington ESB,?,4.9,20
-Columbia River ESB,37.6,5.7,20
-Columbia River Ground "N" Pound,86,8,20
-Columbia River War Elephant,85,8.5,20
-CooperSmiths Albert Damm Bitter,?,4.8,20
-CooperSmiths Sir Edmunds ESB,?,6.4,20
-Coronado Idiot IPA,?,8.5,20
-Crabtree E.S.B. (Extra Sexy Brewer),?,6.25,20
-Crouch Vale Fireball,?,4.5,20
-Crouch Vale Santas Revenge,?,5,20
-Crouch Vale The Conkeror,?,4.3,20
-Crown Valley Gunslinger Double IPA,93,8.3,20
-Crux Half Hitch,80,10,20
-Crux Insider,80,7.6,20
-Crux Mosaic,85,10,20
-Crux Outcast,60,7.6,20
-Daleside Duff,?,5,20
-Dark Horse Double Crooked Tree IPA,?,13.6,20
-Dark Star Festival,?,5,20
-Dark Star Red Ale,?,5,20
-Dark Star Winter Meltdown,?,5,20
-De Molen Amarillo,77,9.2,20
-De Molen Storm & Averij (Storm & Damage),?,9.2,20
-Delafield Imperial IPA,?,10,20
-Denver ChopHouse ESB,?,5,20
-Denver ChopHouse Extra Bitter Bitter,?,?,20
-Deschutes Bachelor Bitter,43,5.4,20
-Deschutes Bachelor ESB,?,5.3,20
-Deschutes Hop Henge Experimental IPA,95,8.75,20
-Deschutes Hop Henge Imperial IPA,95,8.1,20
-Deschutes Horizon Glacier ESB,?,?,20
-Diamond Knot Industrial IPA,75,7.5,20
-Dicks Best Bitter,50,5.6,20
-Dicks Bottleworks IPA,?,8.5,20
-Dieu du Ciel Chaman,?,8.5,20
-Dieu du Ciel Mondix Ale,?,8,20
-Dieu du Ciel Voyageur des Brumes,?,5,20
-Dodging Duck Old Speckled Duck ESB,?,5.4,20
-Dogfish Head 120 Minute IPA,120,18,20
-Dogfish Head 90 Minute IPA,90,9,20
-Dogfish Head Burton Baton,80,10,20
-Dogfish Head Hellhound On My Ale,100,10,20
-Dogfish Head Squall IPA,?,9,20
-Double Mountain Alpenbrew,40,5,20
-Double Mountain Hop Lava,?,7,20
-Double Mountain Molten Lava,95,9,20
-Downtown Grill White Mule ESB,?,?,20
-Dragonmead Sir Williams ESB,?,4.8,20
-Drakes Denoginizer,90,9.75,20
-Drakes Hopocalypse Double IPA,100,9.3,20
-Drakes Hopocalypse Triple IPA,100,12.5,20
-Draught House Double IPA,?,8.5,20
-Draught House Wilsons ESB,?,5.9,20
-Dry Dock Double IPA   (Seven Seas),90,9,20
-Dry Dock HMS Victory Amber,49,5.8,20
-DuClaw Serum,?,8,20
-Duchy Originals Organic English Ale,?,5,20
-Dugges Gustafs Finger,?,5.8,20
-Dugges Never Mind The Bollox!,?,9,20
-Earth Cliche IPA,?,7.2,20
-Eddie McStiffs Extra Special Bitter,?,?,20
-Eel River Earth Thirst Double IPA,92,8.2,20
-El Toro Deuce,100,7.5,20
-Element Extra Special Oak (ESO),26.5,7.75,20
-Elevator Bleeding Buckeye Red Ale,?,?,20
-Elevator Imperial IPA,?,?,20
-Elgoods Thin Ice,?,4.7,20
-Elgoods Warrior,?,5.5,20
-Elm City Brickyard ESB,?,?,20
-Elysian The Wise ESB,39,5.9,20
-Emelisse Black & Tan Bowmore BA,70,10,20
-Emelisse Double IPA 9%,?,9,20
-Emelisse Triple IPA,103,10,20
-Empyrean LunaSea ESB,31,6.3,20
-Epic Hopulent IPA,?,8.6,20
-Epic Imperial IPA,?,10.1,20
-Eskes Special Bitter,?,5,20
-Eugene City Tracktown 300 Meter Ale,?,120,20
-Everybodys Bro Brah Bitter ESB,40,5.3,20
-Evil Twin Before, During and After Christmas Beer,?,10
-Evil Twin Disco Beer,?,10,20
-Evil Twin Yang,?,10,20
-Evolution Exile ESB,48,5.9,20
-Evolution Lot No 6 Double IPA,75,8.5,20
-Farmington River Mahogany Ale,?,?,20
-Fearless ESB,67,5,20
-Fearless Mjolnir Imperial IPA,?,6.9,20
-Fegleys Brew Works ESB,?,5.4,20
-Fegleys Brew Works HopSolutely,100,11.5,20
-Fire Mountain Cold Cold Billy Double IPA,92,7.8,20
-Fire Station 5 Fire Drill ESB,27,5.4,20
-Firebrand Great British Beer,?,5,20
-Firestone Walker Double Jack IPA,?,9.5,20
-Fitgers Witchtree ESB,?,5.6,20
-Flagstaff Bitterroot Extra Special Bitter,41,5,20
-Flat Tail Licentious Goat,?,8.5,20
-Flat Tail Some Like It Hop,90,10,20
-Fletcher Street Double IPA,?,7.5,20
-Florida Beer Swamp Ape DIPA,?,10,20
-Flying Dog Imperial IPA Centennial Single Hop,70,10,20
-Flying Dog Imperial IPA Citra Single Hop,70,10,20
-Flying Dog Imperial IPA El Dorado Single Hop,70,10,20
-Flying Dog Imperial IPA Galaxy Single Hop,70,10,20
-Flying Dog Imperial IPA Nelson Sauvin Single Hop,70,10,20
-Flying Dog Imperial IPA Simcoe Single Hop,70,10,20
-Flying Dog Imperial IPA Sorachi Ace Single Hop,70,10,20
-Flying Fish ESB Ale,?,5.5,20
-Flying Fish Exit 16 WE,?,8.2,20
-Flying Goose Hominy Pot ESB,?,6.3,20
-Flying Monkeys Alpha Fornication,2500,13.3,20
-Flying Monkeys Super Collider,160,12,20
-Foothills Rainbow Trout ESB,45,4.5,20
-Foothills Seeing Double IPA,126,9.4,20
-Fort Collins The Incredible Hop - Imperial India Wheat Ale,?,9.5,20
-Fort Street FIPA,125,8.75,20
-Founders Devil Dancer Triple IPA,200,13,20
-Founders Imperial IPA,?,9.9,20
-Four Friends Extinction,?,9.4,20
-Free State C3 IPA,95,7.8,20
-Free State Janes ESB,?,45,20
-Free State Kings Cross ESB,?,50,20
-Freeminer Celestial Steam Gale,?,5,20
-Freeminer Shakemantle Ginger Ale,?,5,20
-Freeminer Speculation Ale,?,4.8,20
-Freetail Broken Treaty,45,6.9,20
-Freetail Hopothesis A,125,13.3,20
-Freetail Phantom of the Hopera Dub'l IPA,69,9.6,20
-French Broad 13 Rebels ESB,?,5.2,20
-Frog Island Castle Bravo,?,11,20
-Front Street ESB,?,4.7,20
-Full Pint Tri-PA,?,9,20
-Full Sail Brewer's Share Extra Special Barney (ESB),35,6.5,20
-Full Sail Elevation,80,7.5,20
-Full Sail Slipknot Imperial IPA,?,7.8,20
-Fullers ESB,?,5.9,20
-Fullers India Pale Ale,?,4.8,20
-Fullers Jack Frost,?,4.5,20
-Gales HSB,?,4.8,20
-Gardner Ale House Face-off Double IPA,?,9.5,20
-Gardner Ale House Xtra Special Bitter (XSB),?,5,20
-Gaslight Citra E.S.B.,?,6.2,20
-Gaslight Extra Special Bitter,?,6.2,20
-Gearys Imperial IPA,?,8.2,20
-General Lafayette Union Jack,?,5.3,20
-General Lafayette West Coast IPA,90,7.2,20
-Gigantic Dynomite!,90,8.9,20
-Gigantic Ginormous IPA,?,8.8,20
-Glacier Double IPA,?,7.61,20
-Glacier Extra Special Bitter,?,?,20
-Glenwood Canyon Red Mountain ESB,?,?,20
-Golden City Stand-Up Double IPA,?,9.6,20
-Golden Valley Erratic Rock Bitter,?,4.8,20
-Golden Valley Red Thistle Quercus,38,5.8,20
-GoodLife Comatose Imperial IPA,95,9.5,20
-Goose Island Best Bitter,?,5,20
-Goose Island Harvest Ale,35,5.7,20
-Grand Teton Bitch Creek ESB,60,6.5,20
-Grand Teton Double IPA,?,7.5,20
-Great Divide 15th Anniversary Wood Aged Double IPA,?,10,20
-Great Divide Hercules Double IPA,85,9.1,20
-Great Divide HotShot ESB,?,5,20
-Great Lakes Moondog Ale,25,5,20
-Great Lakes York Street Bitter,45,5.5,20
-Great Northern Big Fog ESB,46,6.8,20
-Green Flash Green Bullet,?,10.1,20
-Green Flash Imperial IPA,101,9,20
-Green Flash Palate Wrecker,149,9.5,20
-Green Flash Road Warrior,80,9,20
-Green Man ESB,?,5.5,20
-Green Man Rainmaker,?,9.9,20
-Greenbush Brother Benjamin,114,10.1,20
-Greene King Abbot Ale,?,5,20
-Gritty McDuffs Christmas Ale,28.5,6.2,20
-Gritty McDuffs Halloween Ale,?,6,20
-Gritty McDuffs Monster Mash,?,7.6,20
-Hair of the Dog Blue Dot Imperial IPA,100,7,20
-Hales Aftermath Imperial IPA,?,8.4,20
-Hales Special Bitter (Special HSB),?,4.7,20
-Hales Supergoose IPA,80,7.4,20
-Hambleton Thoroughbred,?,5,20
-Hampshire Bonfire Bitter,?,4.2,20
-Hampshire Hare,?,4.8,20
-Hampshire Merlins Magic,?,5,20
-Hampshire Pedragon,?,4.8,20
-Hampshire Seduction,?,4.5,20
-Harmon Browns Point ESB,40,5.4,20
-Harmony Grote Pier,?,9,20
-Harpoon 100 Barrel Series #07 - Union Street Revival Ale,36,6.6,20
-Harpoon 100 Barrel Series #31 - Single Hop ESB,?,5.8,20
-Harpoon ESB,?,5.5,20
-Harpoon Leviathan Imperial IPA,122,10,20
-Harpoon Union Street Revival Ale,?,6.6,20
-Hart & Thistle High Voltage,100,7.8,20
-Hart & Thistle Hop Mess Monster v2.0,1066,9.2,20
-Hart & Thistle Hyperhidrosis,100,8.5,20
-Hart & Thistle Rocket Man,186,8,20
-Harvest Moon Charlie Russell Red,?,?,20
-Harvest Moon Citra Double IPA,?,8.3,20
-Harvest Moon Columbus Double IPA,?,8,20
-Harvest Moon Hops² Double IPA,?,8.3,20
-Harveys Armada Ale,?,4.5,20
-Harveys Southdown Harvest Ale,?,5,20
-Harveys Star of Eastbourne,?,5,20
-Harviestoun Old Manor,?,4.6,20
-Harviestoun Santas Stocking Filler,?,4.5,20
-Hawks Super Natural ESB,?,6.5,20
-Hazel Dell Imperial IPA,75,6.8,20
-HeBrew Bittersweet Lennys R.I.P.A.,?,10,20
-Heathen Megadank,120,8.2,20
-Heathen Son of Malice,90,8.7,20
-Heavy Seas Mutiny Fleet Big DIPA (-2012),75.5,10.6,20
-Heavy Seas Uncharted Waters The Big DIPA (2013-),75.5,10.5,20
-Hepworth Iron Horse,?,4.8,20
-Heretic Evil Cousin,100,8,20
-Hideout Double Bubble DIPA,?,10.2,20
-High Desert Anniversary Ale,?,8,20
-High Desert Extra Special Bitter,?,5,20
-High Point E.S.B.,?,?,20
-Highlands Hollow Thunder Monkey,?,?,20
-Hill Farmstead Abner,170,8.2,20
-Hill Farmstead Ephraim,280,10.3,20
-Hill Farmstead Galaxy,?,8,20
-Hollister Hip Hop Double IPA,?,9,20
-Hook Norton Old Hooky (Bottle),?,4.6,20
-Hook Norton Old Hooky (Cask),?,4.6,20
-Hop Back Winter Lightning,?,5.5,20
-Hop Valley Alpha Centauri Binary IPA,100,8.5,20
-Hoppin Frog Fresh Frog Raw Hop Imperial Pale Ale,45,7.8,20
-Hoppin Frog Hop Dam Triple IPA,?,10,20
-Hoppin Frog Mean Manalishi Double IPA,168,8.2,20
-Hopworks Ace of Spades,100,9.2,20
-Hopworks Evelyn's Sunshine Imperial IPA,90,7.5,20
-Hopworks Velvet ESB,30,5.2,20
-Howe Sound Bailout Bitter,16,5,20
-Howe Sound Baldwin and Cooper Best Bitter,52,5.5,20
-Howe Sound Total Eclipse of the Hop,90,8,20
-Hunter Gatherer ESB,?,?,20
-Huvila ESB,48,5.2,20
-Imperial Mucho Aloha IPA,?,10,20
-Independence Brewing ESB,44,6,20
-Inveralmond Pundie,?,5,20
-Iron Hill ESB,35,4.5,20
-Iron Hill Imperial IPA,90,7.2,20
-Iron Horse Beer Shoppe 1st Anniversary Imperial IPA,?,10,20
-Iron Springs Casey Jones Imperial IPA,?,8,20
-Iron Springs McCarys ESB,?,?,20
-Isle of Skye Blaven,?,5,20
-Ithaca Double IPA,?,10,20
-Ithaca Excelsior! AlpHalpHa,?,8.5,20
-J.W. Lees John Willies,?,5,20
-J.W. Lees Ruddy Glow,?,4.5,20
-JailHouse Hop Riot,?,8,20
-Jamesport ESB,?,4.8,20
-Jamtlands Fallen Angel,?,5,20
-Jamtlands Postiljon,?,5.8,20
-Jasper Murdocks Extra Special Bitter,?,6.2,20
-Joseph James Hop Box Imperial IPA,90,9.3,20
-Kane Overhead,100,8.2,20
-Karl Strauss Big Toe Double IPA,?,9,20
-Karl Strauss Double/Imperial IPA,?,9,20
-Karl Strauss Extra Special Bitter,?,5.6,20
-Kellys Brew Pub ESB,50,5.6,20
-Kenai River C.I.R.P.A.,103,9,20
-Kenai River Eagle Rock ESB,?,?,20
-Kennebec ESB,?,?,20
-Klamath Basin Lone Pine Double IPA,95,8.6,20
-Knee Deep Hop Shortage Triple IPA,133,11.5,20
-Knee Deep Hoptologist DIPA,102,9,20
-Knee Deep Simtra Triple IPA,131,10.1,20
-Kuhnhenn American Extreme IPA,?,7.1,20
-LaConner ESB,?,6,20
-Lafayette Eastside Bitter,38,5.3,20
-Lagunitas Hop Stoopid,102,8.2,20
-Lagunitas Maximus,72.4,7.5,20
-Lake Placid Leaping Cow Ale,?,6.5,20
-Lake Superior Cabin Fever ESB,?,?,20
-Lakefront Organic ESB,?,5.5,20
-Laughing Dog AlphaDog Imperial IPA,127,8,20
-Laughing Dog Crotch Sniffing Bastard (CSB),?,5.5,20
-Laughing Dog Devil Dog Imperial IPA,98,10,20
-Laurelwood Imperial Workhorse IPA,?,9.5,20
-Laurelwood Organic Green Mammoth Imperial IPA,85,9,20
-Lawsons Finest Double Sunshine IPA,?,8,20
-Lawsons Finest Hopzilla Double IPA,?,8.7,20
-Le Naufrageur Machault,32,5.2,20
-Leavenworth Ingall's Extra Special Bitter,40,4,20
-Left Coast Hop Juice,82,9.7,20
-Left Hand Sawtooth Ale,27,5.3,20
-Left Hand Twin Sisters Double IPA,87,9.6,20
-Legend ESB,?,6.5,20
-Legend Imperial IPA,126,8,20
-Leinenkugels Big Eddy Imperial IPA,80,8.2,20
-Les Brasseurs du Temps Diable au Corps,100,9.5,20
-Les Brasseurs du Temps ESB 1821,?,5.5,20
-Liberal Cup Ex-Wife Extra Bitter,?,6.7,20
-Liberty Street 42nd Parallel,?,8.6,20
-Little Creatures Single Batch The Big Dipper,55,7.8,20
-Lompoc C-Sons Greetings,?,8,20
-Lompoc Millenium IIPA,?,7.5,20
-Long Trail Brewmaster Series Double IPA,86,8.6,20
-Lord Nelson Victory Bitter,?,4.5,20
-Lost Coast Double Trouble IPA,?,8.5,20
-Lost Rhino Hop Star,150,10.1,20
-Lost Rhino Ice Breaker,99,9.2,20
-Lucid Duo,75,9,20
-Lucky Labrador Hawthornes Best Bitter,26,4.5,20
-Lumberyard Imperial IPA,100,9.5,20
-Mad River Jamaica Sunrise ESB,36,5.4,20
-Mad River Steelhead Double IPA,95,8.6,20
-Madison River Irresistable ESB,?,6.4,20
-Magic Hat Batch 375 (Imperial IPA),?,8,20
-Magic Hat Wooly,40,4.5,20
-Magnolia Blue Bell Bitter,?,5.4,20
-Magnolia Proving Ground Pale,100,7,20
-Maine Beer Dinner,?,8.2,20
-Mammoth IPA 395,50,8,20
-Manayunk California Dreamin,65,8.5,20
-Marble Double India Pale Ale,?,8,20
-Marin Eldridge Grade White Knuckle Double IPA,?,8,20
-Maritime Pacific Imperial Pale Ale,?,7.5,20
-Maritime Pacific Salmon Bay ESB,?,5.5,20
-Market Cross Olde Yeller IPA,?,7.2,20
-Marshall Wharf Big Twitch,?,8.25,20
-Marshall Wharf Cant Dog Imperial IPA,?,10,20
-Marthas Exchange Dr. Hoppenstein,?,9.1,20
-Maui Brewing Lorenzini Blood Orange Double IPA,64,8,20
-McEwans 90 Shilling,?,5.5,20
-McMenamins Double Helix,100,8.5,20
-McNeills Extra Special Bitter Ale,?,5.5,20
-McNeills Warlord Imperial IPA,85,8.5,20
-Mendocino Imperial IPA,?,8,20
-Mendocino Winter Ale (05-06 - IIPA),?,9,20
-Mendocino Winter Seasonal Imperial IPA,?,7.5,20
-Mia and Pias Flash Flood E.S.B.,?,4.8,20
-Middle Ages 10th Anniversary Ale,?,10,20
-Middle Ages Beast Bitter,?,5.3,20
-Midnight Sun 11th Anniversary Double IPA,105,9,20
-Midnight Sun Cohoho Imperial IPA,?,8,20
-Midnight Sun Gluttony,200,10.5,20
-Midnight Sun Meltdown Double IPA,80,8,20
-Midnight Sun Obliteration III,87,7.6,20
-Midnight Sun Obliteration IV,70,7.8,20
-Midnight Sun Operation Hay,108,7.8,20
-Midnight Sun Wrath,100,8.2,20
-Midtfyns Ale,?,6.5,20
-Midtfyns Double IPA,?,9.2,20
-Mikkeller 1000 IBU Barrel Aged,1000,9.6,20
-Mikkeller 1000 IBU,1000,9.6,20
-Mikkeller Drikkeriget DIPA,?,10.1,20
-Millstream Hop² Double IPA,85,7.5,20
-Millys Tavern Hopzilla,100,8.1,20
-Mishawaka Chinook Imperial IPA,?,8,20
-Mishawaka Loopy Lupilin,95,9.5,20
-Mission Shipwrecked Double IPA,75,9.25,20
-Montana Ale Works Blue Collar ESB,?,5.8,20
-Moonlight Twist of Fate Bitter Ale,?,5.6,20
-Moorhouses Amber Rambler,?,4.8,20
-Moorhouses Reinbeers Revenge,?,4.5,20
-Morland Old Speckled Hen,?,5.2,20
-Moylans Hopsickle Imperial India Pale Ale,?,9.2,20
-Moylans Moylander Double IPA,?,8.5,20
-Mt Hood Imperial IPA,?,7.5,20
-Mt Hood Pinnacle ESB,?,?,20
-Mt. Emily Ale House Double IPA,150,8,20
-Mt. Pleasant Freight Train Double IPA,?,8.6,20
-Mudshark Pub Draft ESB,?,4.4,20
-Narke Huvill,?,8.5,20
-Narke Orebro Bitter,?,5.8,20
-Narragansett Private Stock Imperial India Pale Ale,122,8.6,20
-Natian Old Grogham Winter IPA,86,8.5,20
-Natty Greenes Cannonball Double IPA,81,8,20
-Natty Greenes Sir Walters ESB,?,5.2,20
-Nethergate Augustinian Ale,?,5.2,20
-Nethergate Dirty Dicks Audit Ale,?,5.2,20
-New Albanian Beak's Best,35,5.3,20
-New Albanian Hoptimus,100,10.7,20
-New Albanian Yakima,130,7.5,20
-New Belgium / Elysian The Trip XIV Imperial Fresh Hop,?,8.6,20
-New Belgium 2° Below Winter Ale,32,6.6,20
-New Belgium Rampant Imperial IPA,85,8.5,20
-New England Gandhi-Bot Double IPA,85,8.8,20
-Newcastle Werewolf,?,4.5,20
-Newport Storm Chloe,56,8.6,20
-Ninkasi Babylon Double IPA,100,9.1,20
-Ninkasi Tricerahops Double IPA,100,8.8,20
-No-Li Jet Star Imperial IPA,115,8.1,20
-No-Li Spin Cycle Red ESB (Crystal Bitter Ale),49,5.75,20
-NoDa NoDaRyeZ?d Double Rye Indian Pale Ale,90,8.9,20
-Nodding Head 3C Extreme Double IPA,?,10,20
-Nodding Head Hoptimus Prime,?,12,20
-Nodding Head Wumpus,?,?,20
-Nogne O Bitter,?,4.5,20
-Norrebro North Bridge Extreme,?,9.6,20
-North By Northwest Green Menace,?,7,20
-North End 5-Way IPA,?,8,20
-North Peak Hoodoo Midwest Wet Hop IPA,99,9,20
-Northampton Daniel Shays Best Bitter,?,5.7,20
-Northampton Double Take IPA,?,9,20
-Northampton Sno-Shovel ESB (Sandshovel),?,6,20
-Nynashamns Bedaro Bitter,?,4.6,20
-Oakshire Imperial IPA (Perfect Storm),?,8.4,20
-Odell Myrcenary,?,9.3,20
-Oggis Big Guy Double IPA,?,8.3,20
-Oggis Ding Ding Double IPA,?,10.5,20
-Oggis IP-271,?,8.3,20
-Old Boys Kennel King Double IPA,103,8.1,20
-Old Market Rat Dog ESB,35,5.93,20
-Old Market The Kraken Imperial IPA,103,8.9,20
-Old Schoolhouse Imperial IPA,?,9,20
-Old Schoolhouse New School ESB,?,5.5,20
-Olde Auburn Hop Tea Double IPA,?,?,20
-Olde Hickory Death by Hops,108,7,20
-Olde Hickory Wilson Creek ESB,?,?,20
-Olfabrikken 100 gram IPA,100,8.5,20
-Olfabrikken Batch #100,?,10,20
-Oliver ESB,?,6,20
-Opa-Opa Steakhouse A-10 Warthog IPA,?,13.75,20
-Orkney Red MacGregor,?,5,20
-Oskar Blues Deviant Dale?s India Pale Ale,85,8,20
-Otter Ale,?,4.5,20
-Otter Claus,?,5,20
-Otter Creek ESB,?,?,20
-Otter Head,?,5.8,20
-Outer Banks Moondog ESB,?,5.4,20
-Pacific Coast Harpoon ESB,?,6,20
-Pacific Coast Holiday Imperial ESB,?,7.9,20
-Palisade Dually I2PA,?,?,20
-Papago Hop Father Imperial IPA,100,7,20
-Papago Hop Shortage,?,?,20
-Paper City Blonde Hop Monster,?,8.5,20
-Patchwork Old Swamp Double IPA,?,7.6,20
-Peace Tree Double IPA,?,9,20
-Pelican Imperial Pelican,?,8,20
-Pelican Nestucca ESB,?,5.4,20
-Pennichuck Chiefs Imperial IPA,106,10,20
-Pensacola Bay Extra Special Bitter,55,6,20
-People's Pint Double IPA,?,7.8,20
-Perrin Double IPA,60,8.9,20
-Phantom Canyon ESB,?,5.5,20
-Phillips Accusation Ale,?,5,20
-Phillips Amnesiac Double IPA,?,8.5,20
-Phillips Crazy 8s Annu-Ale,?,8,20
-Pike FSB,58,5.8,20
-Pints Pub Alchemy ESB,?,5.5,20
-Pisgah ESB,?,?,20
-Pitstop The Hop,323,8,20
-Pizza Port Doheny Double IPA,?,8,20
-Pizza Port Poormans IPA,?,10,20
-Pizza Port Restoration Ale,?,4.5,20
-Pizza Port Zeppelin Rising,?,8.6,20
-Port Brewing Hop 15,?,10,20
-Port Brewing Mongo IPA,?,8.5,20
-Port Townsend Boatyard Bitter,?,5.3,20
-Portsmouth Extra Special Bitter,?,6,20
-Portsmouth Imperial IPA,?,9,20
-Portsmouth XX Bitter,?,5.25,20
-Pretty Things Hedgerow Bitter,?,5.4,20
-Pumphouse Escape Route ESB,?,?,20
-Pumphouse Hot Shots Harvest Double IPA,?,?,20
-Pyramid Outburst Imperial IPA,80,8.5,20
-Queen City Speckled Rooster,?,?,20
-RCH Firebox,?,6,20
-RCH Steam Pole,?,4.9,20
-RCH Steam Showers,?,4.8,20
-RJ Death Valley,?,8,20
-Raasted Festival IPA,335,7.5,20
-Raccoon Lodge Imperial English IPA,?,7,20
-Raccoon Lodge Oak-Aged Imperial IPA,?,7.5,20
-ReaperAle Sleighor Double IPA,?,9.1,20
-Red Rock Special Bitter,?,?,20
-Redfish Old School ESB,?,5.5,20
-Redhook Big Ballard Imperial IPA,?,8.6,20
-Redhook Blueline Series Extra Special Birthday,65,6.5,20
-Redhook ESB,24.3,5.77,20
-Renaissance MPA,?,8.5,20
-Ridgeway Blue,?,5,20
-Ridgeway IPA,?,5.5,20
-Right Brain Satisfaction ESB,?,6,20
-Rikenjaks ESB,?,?,20
-Ringwood Old Thumper Extra Special Ale (USA version),?,5.9,20
-River Horse Hopalotamus,93,8.3,20
-River Horse Special Ale ESB,?,4.5,20
-Robinsons Double Hop,?,4.8,20
-Robinsons Trooper,?,4.7,20
-Rochester Mills Brick Shot ESB,?,5.4,20
-Rock Art Belvidere Big IPA,?,8,20
-Rock Art IPA (II),?,8,20
-Rock Art Magnumus Ete Tomahawkus ESB3 Ale,?,8,20
-Rockslide ESB,?,?,20
-Rockyard Castlewood ESB,?,5.2,20
-Rogue Imperial India Pale Ale,53,8.4,20
-Rogue Imperial Pale Ale (I2PA),53,9.5,20
-Rogue Imperial Youngers Special Bitter,52,7.4,20
-Rogue Ten Thousand Brew Ale (Brew 10,000),83,10
-Rogue Youngers Special Bitter,35,4.8,20
-Roots Organic Sharkbite Imperial IPA,?,?,20
-Roughtail Hoptometrist,100,10,20
-Round Barn Bob?s Your Uncle,?,4.8,20
-Royal Oak Brewhouse ESB,?,5.4,20
-Rubicon T.C.B. E.S.B. R.I.P. E.A.P.,?,?,20
-Ruddles County,?,4.7,20
-Ruddles Organic Ale,?,5.1,20
-Russian River ESB,35,5.5,20
-Russian River Pliny the Elder,92,8,20
-Russian River Pliny the Younger,?,11,20
-Samuel Adams LongShot Double IPA,?,9,20
-Samuel Adams Third Voyage Double IPA,80,8,20
-San Luis Valley Early Iron ESB,?,?,20
-SanTan Count Hopula,99,7.5,20
-Saranac ESB,?,5.5,20
-Saranac Imperial IPA,85,8.5,20
-Saranac India Copper Ale,?,6,20
-Sasquatch Moby Dick Double IPA,90,10.2,20
-Saugatuck Continuum Imperial IPA,110,8.5,20
-Saugatuck ESB Amber,?,5.4,20
-Scheldebrouwerij Mug Bitter,?,5,20
-Schlafly Winter ESB,?,6.8,20
-Schmohz Hopknocker Imperial IPA,136,10,20
-Schmohz Treasure Chest ESB,35,5.3,20
-Schooner Exact Imperial Project,?,9.5,20
-Scuttlebutt Hoptopia,75,8,20
-Seabright Blur Double IPA,?,7.1,20
-Seabright Castle Beach ESB,?,4.9,20
-Sebago Full Throttle Double IPA,?,8.2,20
-Second Street ESB,36,5.5,20
-Seven Brides Frankenlou?s IPA,105,7,20
-Shamrock Double Pale Ale,100,9.1,20
-Shepherd Neame Bishops Finger (Cask),?,5,20
-Shepherd Neame Bishops Finger,?,5.4,20
-Ship Inn Extra Special Bitter,?,5.2,20
-Shipyard XXXX IPA (Pugsleys Signature Series),70,9.25,20
-Shmaltz Mazel Hops,81,8.9,20
-Shoreline 3 Sum IIPA,?,8,20
-Shorts Autumn Ale,31,6,20
-Shorts Aww Jeah,?,8.5,20
-Shorts The Liberator,300,8,20
-Sierra Nevada Beer Camp Ghidorah,?,8.5,20
-Sierra Nevada Chico IPA,?,7.1,20
-Sierra Nevada Early Spring Beer (ESB),45,5.9,20
-Sierra Nevada Hopsichord,80,9.7,20
-Sierra Nevada Hoptimum,100,10.4,20
-Silver City Big Daddys ESB,?,5.8,20
-Silver City Saint Florian Firefighter IPA,55,6.8,20
-Silver City Whoop Pass Double IPA,85,8.5,20
-Silver Moon Badlands ESB,30,5,20
-Silver Moon Hoptagon,99,9,20
-Silver Peak B Dubs Double Hopped IPA,?,9,20
-Silver Peak ESB,?,6.3,20
-Six Rivers Bourbon Barrel Double IPA,?,9.5,20
-Six Rivers ESB,?,5.5,20
-Six Rivers Sasquatch Ale,?,9.3,20
-Ska Decadent Imperial IPA,95,10,20
-Ska ESB Special Ale,?,?,20
-Skagit River Farm to Market ESB,33,5.6,20
-Slab City W.C. Bitter,?,?,20
-Sleeping Lady Break Up Extra Special Bitter,40,5,20
-Sly Fox Jakes ESB,29,5.9,20
-Sly Fox Odyssey Imperial IPA,90,8.4,20
-Smuttynose Big A IPA,100,9,20
-Snake River Jacksons ESB,?,5.9,20
-Snipes Mountain Red Sky Ale,?,5.2,20
-Snipes Mountain Sunnyside Pale Ale,?,4.6,20
-Snowshoe ESB,?,6,20
-Sockeye Hopnoxious Imperial IPA,?,7.9,20
-Southend Double IPA,?,8.5,20
-Southern Tier 2xIPA,?,8.2,20
-Southern Tier Gemini,?,10.5,20
-Southern Tier Harvest Ale,?,6.4,20
-Southern Tier Oak Aged Un*Earthly Imperial IPA,?,9.9,20
-Southern Tier Un*Earthly Imperial IPA,153,9.5,20
-Speakeasy Double Daddy IPA,?,9.5,20
-Spinnakers Blue Bridge Double IPA,?,8.2,20
-Spinnakers Mitchells ESB,?,5.2,20
-St. Ambroise Double IPA,77,8,20
-Standing Stone Double India Pale Ale,95,7,20
-Starr Hill Double Platinum,180,8.5,20
-Steamworks Conductor Imperial IPA,?,9,20
-Steelhead Hopasaurus Rex,120,9.9,20
-Steelhead Nigels ESB,?,?,20
-Stegmaier 100th Anniversary IPA,?,8.2,20
-Stewarts Lockjaw IPA,?,8.2,20
-Stone 10th Anniversary IPA,?,10,20
-Stone 14th Anniversary Emperial IPA,100,8.9,20
-Stone 16th Anniversary IPA,85,10,20
-Stone 5th Anniversary IPA,?,8.5,20
-Stone Cat E.S.B.,?,?,20
-Stone Coast 1260 Triple IPA,?,10.5,20
-Stone Coast 840 IPA,?,8.5,20
-Stone Enjoy By ... IPA,?,9.4,20
-Stone Ruination IPA,105,7.7,20
-Stoudts Double IPA,?,10,20
-Stoudts Scarlet Lady Ale (ESB),?,5,20
-Sun King Bitter Druid,43,5.8,20
-Sun King Cream Dream IV: A New Hop,100,9.4,20
-Sun Valley Imperial IPA,?,?,20
-Surly FF Double Furious Experimental,?,?,20
-Swans Buckerfields Bitter,?,5,20
-Sweetwater ESB,?,5.6,20
-TableRock Spring Celebration,?,6.5,20
-Tallgrass Oasis ESB,93,7.2,20
-Tenaya Creek Monsoon IPA,?,8.7,20
-Terminal BrewHouse O.P.P ESB,?,45,20
-Terminal Gravity ESG,19,5.4,20
-Terra Firma Copper Grasshopper ESB,?,5,20
-Terra Firma Soul Butter Triple IPA,?,8.8,20
-Terrapin Big Hoppy Monster,73,8.75,20
-Terrapin Big Sloppy Monster,?,8.3,20
-Terrapin Oak Aged Rye Squared,80,8.5,20
-Terrapin Rye2 (Rye Squared),80,8.5,20
-Thames American Festival Ale,?,?,20
-Thames Welsh Ale,?,?,20
-Thames Welsh ESB,?,6,20
-The Cambridge House Old Mill Pond ESB,?,6.5,20
-The Dudes Double Trunk,?,10.8,20
-The Filling Station D.C. ESB,?,5.7,20
-Theakston Coopers Butt,?,4.3,20
-Third Base Hopness Monster,85,8.5,20
-Thirsty Dog Anniversary DUIPA,?,7.5,20
-Thomas Creek Up the Creek Extreme IPA,?,12.5,20
-Three Floyds Big Ups Bitter,?,4.8,20
-Three Floyds Dreadnaught Imperial IPA,100,9.5,20
-Thunder Canyon ESB,?,?,20
-To Øl/Mikkeller Overall IIPA,408,10.5,20
-Toppling Goliath Biter Double IPA,?,154,20
-Town Hall Big Dog,?,8.2,20
-Town Hall Broken Paddle ESB,?,5.1,20
-Trap Rock Fuggle Rock Ale,?,4.7,20
-Trap Rock Jet Fuel IPA,?,8,20
-Trinidad Picketwire ESB Special Ale,?,?,20
-Triple Voodoo Kraken Imperial IPA,?,9,20
-Triumph Extra Special Bitter,?,?,20
-Triumph ipX,?,8.9,20
-Trois Dames La Pasionaria Double IPA,110,9,20
-Tugboat Extra Special Bitter (ESB),?,?,20
-Turtle Mountain Essbuh EJB ESB,25,5.83,20
-Twains Stubborn River ESB,?,5.7,20
-Twains XL Double IPA,?,8,20
-Two Brothers Hop Juice,100.1,9.9,20
-Tyranena Bitter Woman From Hell Extra IPA,?,?,20
-Uinta Crooked Line Cahoots Double Rye IPA,?,9.4,20
-Uinta Crooked Line Detour Double India Pale Ale,74,9.5,20
-Uncle Billys Triumph ESB,?,?,20
-Upstream Double IPA,?,6.8,20
-Upstream Firehouse ESB,?,5.8,20
-Uptown Bitter Brunette ESB,37,5,20
-Vermont Pub Dogbite Bitter,?,5.4,20
-Victory ESB,?,5.3,20
-Victory Hop Wallop,?,8.5,20
-Vinos Ouachita ESB,?,?,20
-Vintage 50 ESB,?,?,20
-Vintage 50 Molotov Hoptail,?,9.2,20
-Waimea Kawikas ESB,45,4.8,20
-Walking Man Homo Erectus Imperial IPA,80,9,20
-Walnut Brewery Big Horn Bitter,?,5.3,20
-Water Street Queen Nina Imperial IPA,?,7.5,20
-Wells Bombardier English Premium Bitter (Bottle),?,5.2,20
-Wells John Bull Finest Bitter,?,4.1,20
-Weyerbacher Camelopardalis,?,10.2,20
-Weyerbacher Double Simcoe IPA,?,9,20
-Weyerbacher ESB,?,5.25,20
-Weyerbacher Unfiltered Double Simcoe IPA,?,9,20
-Weyerbacher Viridis Lupulus,95,7.5,20
-Widmer Brothers Full Nelson,70,10,20
-Widmer Brothers Halo,70,9.7,20
-Widmer Brothers Nelson Imperial IPA (Deadlift),70,8.6,20
-Wild Onion Hop Slayer Double IPA,?,8,20
-Wild River ESB,?,4.3,20
-Williams Bros Seven Giraffes,?,5.1,20
-Williamsburg AleWerks Brewmasters Reserve Ironbound Ale,?,9,20
-Willimantic II IPA,?,8.8,20
-Willoughby Victoria Imperial IPA,?,10.5,20
-Wingman Pocket Aces 2x IPA,96,12,20
-Wisby Brutal Bulldog Double IPA,?,8.4,20
-Worth Otis ESB,49,5.8,20
-Worthy Imperial IPA,85,8.5,20
-Wychwood Hobgoblin (Bottle),32,5.5,20
-Wychwood Hobgoblin (Cask),?,5,20
-Wye Valley Brew 69,?,5,20
-Wynkoop St. Charles ESB,?,4.6,20
-Yards Extra Special Ale,?,5.5,20
-Yellowstone Valley Renegade Red Ale,?,5.9,20
-Youngs Ramrod,?,5,20
-Youngs Special Bitter,?,4.6,20
-Youngs St Georges Ale,?,5,20
-Zero Gravity Ale Communication,?,8,20
-Zion Canyon Extra Special Bitter,36,4,20
-anacortes amber,40,5,17
-anderson valley high rollers wheat,4.4,5.3,20
-arbor red snapper,41,5.2,20
-auburn alehouse route 40 red,40,5.5,20
-ballast point calico amber ale,45,5.5,17
-barley island flat belly wheat,8.6,3.6,20
-bear creek harvest ale,42,5.6,20
-bear republic red rocket ale,65,6.8,20
-big al tutta bella amber,39,5.7,17
-blue point spring fling,36,5.2,20
-brewdog punk ipa,45,6.0,6
-bridgeport kingpin double red ale,65,6.3,20
-caldera dry hop red,100,5.8,20
-cascade lakes ira,78,6.8,20
-church brew absolution ale,45,5.8,20
-coalition king kitty red,59,5.74,20
-cody north shore amber ale,40,5.9,17
-crabtree serenity amber ale,45.6,6.1,17
-deschutes cinder cone red ale,55,5.3,20
-deschutes green lakes organic ale,45,5,20
-dirty hands 320 mule wheat,16,4.7,20
-dirty hands lynch pale ale,47,4.7,6
-dirty hands powder monkey black ipa,82,7.2,6
-dirty hands redemption brown ale,18.2,5.8,20
-dirty hands slow ryed ale,34,6.4,20
-dirty hands victory ship stout,23,5.1,29
-dogfish head 90 minute ipa,90,9.0,6
-dos equis xx amber lager,23,5.5,17
-dry dock evon's contrition copper,49,5.8,20
-element red giant,50,8,20
-elysian avatar jasmine ipa,45,6.3,6
-erie brewing mad anthonys ale,51.6,5.5,20
-evolution incubator #2,50,5.8,20
-firehouse grill hefeweizen,3,5,20
-freetail ale,40,6,20
-full sail ipa,60,6.0,6
-full sail nugget special red ale,45,6.5,20
-georgetown choppers red ale,58,6,20
-golden valley red thistle ale,40,5,20
-great lakes independence ale,45,6,20
-green flash hop head red,45,6.3,20
-hales red menace big amber,35,5.3,17
-harpoon ipa,42,5.9,6
-hart & thistle irreverence harvest ale,50,6,20
-heady topper,75,8.0,20
-heathen promiscuous blonde,19,5.5,3
-heathen rip porter,31,6.1,24
-heathen son of malice iipa,95,8.7,20
-heathen transcend ipa,55,6.7,6
-heathen transgression ipa,80,7.5,6
-heathen vantucky pale ale,43,5.8,6
-heretic evil twin,45,6.8,20
-high noon tonganoxie honey wheat,7,4.46,20
-hilliard's amber ale,46,5.5,17
-hop valley natty red,85,8,20
-hop valley stepchild red,80,6.1,20
-hopworks rise up red,60,5.79,20
-iron springs epiphany ale,69,5,20
-ithaca cascazilla,50,7,20
-kauai island cane fire red,50,6.3,20
-klamath basin rebellion red ale (drop dead red),52,5.9,20
-laurelwood organic free range red,60,6.1,20
-legacy hedonism red,110,7.1,20
-lilys reggies french river red ale,48,5.8,20
-lompoc proletariat red,69,6.2,20
-long trail brewmaster series centennial red,60,7.9,20
-loowit gaibolical organic pale ale,45,5.3,6
-loowit shadow ninja ipa,50,6.8,6
-loowit shimmergloom stout,42,6.0,29
-loowit storm shadow iipa,99,9.0,20
-loowit tiger squadron pale ale,45,5.0,6
-loowit two sixteen red,25,5.0,20
-mad river jamaica red ale,48,6.6,20
-manayunk hop phanatic,50,8.2,20
-marshall revival red ale,62,6.5,20
-mayflower spring hop ale,37,5.2,20
-mcmenamins dark vader porter,28,6.2,24
-mcmenamins delta force ipa,97,7.35,6
-mcmenamins hammerhead pale ale,44,5.93,6
-mcmenamins jam session isa,59,4.9,20
-mcmenamins lokis deception ipa,109,7.61,6
-mcmenamins pints up pale,44,5.8,20
-mcmenamins purple haze,00,4.39,20
-mcmenamins ruby,00,6.3,20
-mcmenamins ryed red,36,5.8,20
-mcmenamins terminator stout,30,6.45,29
-mcmenamins top sider wheat,26,5.55,20
-mendocino red tail ale,35,6,20
-mt tabor asylum avenue ipa,64,6.3,6
-mt tabor block 9 porter,34,6.0,24
-mt tabor el cafe rojo red,27,5.3,20
-mt tabor evolution pale ale,25,5.0,6
-mt tabor faded roots honey blonde,19,5.0,3
-mt tabor freaky deaky lager,51,8.1,20
-mt tabor happy pint porter,00,6.0,24
-mt tabor hudsons bay cda,68,6.3,20
-mt tabor jacks longest leap,71,6.5,20
-mt tabor lapellah v.4.0,27,5.0,20
-mt tabor lifter ipa,86,6.8,6
-mt tabor little bull stout,71,7.2,29
-mt tabor p5 pale ale,49,5.4,6
-mt tabor red lion red,27,5.3,20
-mt tabor rocket blonde,36,7.4,3
-mt tabor toasty nuts autumn ale,36,5.8,20
-mt tabor torqued,49,5.4,20
-mt tabor training wheels session pale ale,32,4.8,6
-mt tabor wild red,27,5.3,20
-mt. emily ale house wild flower red,55,7.6,20
-mt. shasta abner weed amber ale,41.8,5.5,17
-new belgium red hoptober,60,6,20
-north coast reudrichs red seal ale,45,5.5,20
-north peak siren amber ale,48,5,17
-olafabrikken i.r.a.,55,6,20
-old market hop on!,87,5,20
-old market mr. toads wild red ale,50,6.2,20
-pacific crest dryhopped red,50,5.3,20
-payette slaughterhouse india red ale,70,7.5,20
-peak organic amber ale,37,4.9,17
-peak organic fall summit ale,65,6.7,20
-pelican anglers amber ale,35,6.7,17
-pensacola bay riptide amber,40,5.4,17
-phat matt's red,50,6.5,20
-pioneer red ale,48,5.9,20
-pumphouse red alert,50,6,20
-pyramid juggernaut red ale,45,5.6,20
-rogue american amber ale (sea otter)(red fox),53,5.1,17
-rogue captain sigs deadliest ale,80,6.2,20
-rogue dry hopped st. rogue red ale,44,5.2,20
-rogue saint rogue red,44,5.2,20
-rogue santas private reserve,65,6,20
-roots organic fall summit ale,64,5.9,20
-roots organic island red,62.5,5.6,20
-roughtail red republic,40,5.7,20
-rusty truck fender bender amber ale,60,6.2,17
-samuel adams coastal wheat,8,5.4,20
-sasquatch or-7 amber ale,45,6.6,17
-sasquatch red electric ira,70,6.7,20
-scuttlebutt giant sequoia ale,42,4.9,20
-silver moon voodoo dog,47,5.5,20
-southern oregon woodshed red,65,5.8,20
-stone levitation ale,55,4.4,20
-switchback roasted red ale,48,5.6,20
-terrapin oak aged big hoppy monster,80,8.5,20
-thirsty dog hoppus maximus,43,5,20
-three creeks firestorm red,65,5.7,20
-titletown johnny,55,5,20
-turtle mountain hop head red,45,6.1,20
-uinta hazel,38,4,20
-uinta trader season ipa,42,4.0,6
-vertigo high altitude amber,40,5.1,17
-water street panama red,60,6.2,20
-widmer brothers barrel aged brrrbon '13 imperial brrr seasonal ale,40,10.7,?
-widmer brothers barrel aged old embalmer '13 barrel aged barleywine,75,10.2,?
-widmer brothers blacklight ipa,60,4.2,6
-widmer brothers brrr seasonal ale,50,7.2,20
-widmer brothers citra blonde summer seasonal,20,4.3,3
-widmer brothers downward spiral imperial ipa,84,9,6
-widmer brothers drop top amber ale,18,5.3,17
-widmer brothers hefeweizen,30,4.9,20
-widmer brothers saison a' fleurs farmhouse style ale,25,6.7,8
-widmer brothers steel bridge porter,48,5.6,24
-widmer brothers upheaval ipa,85,7,6
-widmer brothers w06 n.w. red ale,50,7.15,20
-wimberley brewing red bitter,45,7.9,20
-wisconsin rainbow red ale,42,4.7,20
-zion canyon springdale amber ale,36,4,17
+000001,(512) Two,99,9,20
+000002,13 Virtues Hoptimal Results,100,9,20
+000003,21st Amendment Double Trouble Imperial IPA,120,9.8,20
+000004,21st Amendment Hop Crisis,94,9.7,20
+000005,21st Amendment Potrero E.S.B.,28,5,20
+000006,23rd Street Imperial IPA,-1,-1,20
+000007,5 Seasons American Special Bitter (ASB),-1,5.2,20
+000008,5 Seasons Copperhead ESB,-1,-1,20
+000009,5 Seasons GFYPA,-1,8,20
+000010,7venth Sun Mangrove Double IPA,-1,9.7,20
+000011,Aardwolf Vulgar Display of Hoppiness,-1,8.8,20
+000012,Adirondack Double IPA,-1,9,20
+000013,Adnams Broadside,-1,4.7,20
+000014,Adnams SSB Suffolk Special Bitter (The Bitter),-1,4.5,20
+000015,Alameda Turks Head ESB,48,4.5,20
+000016,Alameda Yellow Wolf Imperial IPA,103,8.2,20
+000017,Alaskan ESB,35,5,20
+000018,Alaskan Hopothermia Double IPA,70,8.5,20
+000019,Alchemist Heady Topper,120,8,20
+000020,Ale Asylum Satisfaction Jacksin,100,8.25,20
+000021,Ale Industries Albino Double Cascadian Ale,99,9,20
+000022,AleSmith Anvil Ale,-1,5.5,20
+000023,AleSmith YuleSmith,-1,8.5,20
+000024,All Saints Double IPA,75,9.5,20
+000025,Alley Kat Blue Dragon Double IPA,-1,7.5,20
+000026,Alley Kat Red Dragon Double IPA,100,7.5,20
+000027,Alpine Beer Bad Boy IPA,-1,8,20
+000028,Alpine Beer Exponential Hoppiness,-1,10.5,20
+000029,Amherst ESB,-1,5.35,20
+000030,Amnesia Dopacetic Imperial IPA,83,7.8,20
+000031,Amnesia Frostys Revenge,60,8,20
+000032,Amnesia The ESB,-1,-1,20
+000033,anacortes amber,40,5,17
+000034,Anacortes Extra Special Bitter (ESB),35,5.5,20
+000035,Anderson Valley 20th Anniversary Imperial IPA,-1,8.7,20
+000036,Anderson Valley Boont ESB (Formerly Belks ESB),61,6.8,20
+000037,Anderson Valley Heelch O’ Hops,100,8.7,20
+000038,anderson valley high rollers wheat,4.4,5.3,20
+000039,Appalachian ABC ESB,-1,5.3,20
+000040,Arbor 500 Minute IPA,-1,10.7,20
+000041,Arbor Artisan,-1,4.8,20
+000042,Arbor Aurora Arborealis,83,8.5,20
+000043,Arbor HXL IPA,76,8,20
+000044,arbor red snapper,41,5.2,20
+000045,Arcadia Hop Rocket 11th Anniversary Ale,-1,9,20
+000046,Arcadia Hopmouth Double IPA,76,8.1,20
+000047,Arcadia Lake Superior ESB,-1,5.5,20
+000048,Argus Clyde’s Ale ESB,-1,5.5,20
+000049,Armadillo FUPA,93,8.3,20
+000050,Asheville Roland,22.2,5,20
+000051,Ass Kisser Double IPA,-1,9.2,20
+000052,Astoria Bitter Bitch IPA,100,8.2,20
+000053,Atlantic SOB Special Old Bitter Ale,-1,5.5,20
+000054,Auburn Alehouse PU 240 Imperial IPA,100,8,20
+000055,auburn alehouse route 40 red,40,5.5,20
+000056,Auburn Alehouse ZZ Hop Triple IPA,100,9.4,20
+000057,Avery 14'er ESB,-1,5,20
+000058,Avery duganA,93,8.5,20
+000059,Avery Eleven,90,9,20
+000060,Avery Ten,-1,10,20
+000061,Avery The Maharaja Imperial India Pale Ale,102,10.46,20
+000062,Aviator Horsepower Double IPA,-1,8,20
+000063,Aviator Old BullDog ESB,-1,5.8,20
+000064,Back Road Hop Monster IIPA,-1,7.1,20
+000065,Backcountry Expedition ESB,-1,-1,20
+000066,Baird / Ishii / Stone Japanese Green Tea IPA,-1,9.2,20
+000067,ballast point calico amber ale,45,5.5,17
+000068,Ballast Point Dorado Double IPA,-1,9.6,20
+000069,Barley Brothers Destroyer India Pale Ale,-1,13.75,20
+000070,Barley Browns ESB,-1,5.8,20
+000071,barley island flat belly wheat,8.6,3.6,20
+000072,Barleys Double Dog Dare IPA,-1,10,20
+000073,Barleys Four Seasons Imperial IPA,-1,8,20
+000074,Barleys J. Scott Francis ESB,-1,6.8,20
+000075,Barons ESB,-1,4.7,20
+000076,Barrel House Hopped To Hell IPA,-1,10,20
+000077,Barrier Agro-Marine Quadruple IPA,130,12.5,20
+000078,Barrier Antagonist ESB,50,5.8,20
+000079,Barrington ESB,-1,-1,20
+000080,Batemans XXXB,-1,4.8,20
+000081,Bath Barnstormer,-1,4.5,20
+000082,Bath Gem (Bottle),-1,4.8,20
+000083,Bath Gem (Cask),-1,4.1,20
+000084,Bath Rare Hare,-1,5.2,20
+000085,Bear Creek Double Jack,65,9.1,20
+000086,bear creek harvest ale,42,5.6,20
+000087,Bear Republic Apex,100,7.5,20
+000088,Bear Republic English E.S.B.,32,4.8,20
+000089,Bear Republic Grandmas Homegrown Ale,-1,7.8,20
+000090,Bear Republic Hop Rod Rye,80,8,20
+000091,Bear Republic Racer X Strong Ale,110,7.8,20
+000092,bear republic red rocket ale,65,6.8,20
+000093,Bear Republic Whitby Best Bitter,-1,5.9,20
+000094,Beaver Brewing 724,-1,-1,20
+000095,Beaver Street DeRail IPA,-1,7.9,20
+000096,Beer Valley Leafer Madness Imperial Pale Ale,100,9,20
+000097,Beer Works Bay State ESB,-1,6,20
+000098,Belhaven St. Andrews Ale,-1,4.6,20
+000099,Bellevue ESB,33,5.6,20
+000100,Bells Hopslam,70,10,20
+000101,Bells Kalamazoo Hopsoulution Ale,-1,8.4,20
+000102,Bells The Oracle DIPA Ale,-1,10.4,20
+000103,Bend Hophead Imperial IPA,-1,-1,20
+000104,Benny Brew ESB,31,5.5,20
+000105,big al tutta bella amber,39,5.7,17
+000106,Big Boss Double IPA,-1,9,20
+000107,Big Buck Docs ESB,-1,6.7,20
+000108,Big Dogs War Dog Imperial IPA,-1,8.6,20
+000109,Big Horse Horse Thief ESB,-1,6,20
+000110,Big Rapids Brewing Bus Driver ESB,-1,5.2,20
+000111,Big Time Decade India Pale Ale,-1,7.8,20
+000112,Big Time Neighsayer Oatmeal Ale,-1,-1,20
+000113,Big Time Paxtons ESB,-1,5.25,20
+000114,Big Time Rainfest ESB,50,6.25,20
+000115,Big Time Tinderstick ESB,-1,4.25,20
+000116,Bison ESB,-1,-1,20
+000117,Black Diamond Rampage Double IPA,-1,9.5,20
+000118,Black Sheep Ale,-1,4.4,20
+000119,Black Sheep Emmerdale Ale,-1,5,20
+000120,Black Sheep Golden Sheep Ale,-1,4.7,20
+000121,Black Sheep Monty Pythons Holy Grail,33,4.7,20
+000122,Black Sheep Special Ale,-1,4.4,20
+000123,Blackfoot River Blue Collar Pilsner,-1,5.8,20
+000124,Blue Canoe Spinal Tap,-1,10,20
+000125,Blue Corn ESB,-1,6.2,20
+000126,Blue Frog The Big DIPA,82,8,20
+000127,Blue Frog The Big DIPA 3,105,8.4,20
+000128,Blue Hills Imperial Red IPA,-1,9,20
+000129,Blue Moon Pine In The Neck,75,7.5,20
+000130,Blue Point Extra Special Bitter,35,5,20
+000131,Blue Point No Apologies Imperial IPA,93,10,20
+000132,blue point spring fling,36,5.2,20
+000133,Blue Ridge Double Ball n Chain IPA,-1,10,20
+000134,Blue Ridge ESB Red Ale,-1,4.8,20
+000135,Blue Ridge Rainbow Trout ESB,38,4.7,20
+000136,Bluegrass Homewrecker Double IPA,-1,10,20
+000137,Bluegrass James Extra Progressive Bitter,-1,7.2,20
+000138,Bluegrass Professor Gessers Mind Numbing Ale,-1,9,20
+000139,Boatswain Double IPA,75,8.4,20
+000140,Bobcat Cafe Brickwall Harvest Double IPA,100,9.8,20
+000141,Boneyard Hop Venom,70,8.9,20
+000142,Boneyard Notorious,80,12,20
+000143,Boquébière Hopkins Double I.P.A.,90,9.5,20
+000144,Boulder Beer Mojo Risin,-1,10.5,20
+000145,Boulder Beer The Great American Beer Festival 25th Year Beer,-1,7.6,20
+000146,Boulevard Double-Wide IPA,-1,8.5,20
+000147,Boundary Bay E.S.B.,-1,5.6,20
+000148,Boundary Bay ESB (Best Bitter),-1,5.6,20
+000149,Boundary Bay Imperial IPA,-1,9,20
+000150,Brash The Bollocks,110,12,20
+000151,Brash/Ska Brewing Skankin Dirty,-1,9,20
+000152,Breaker 16 Ton IPA,116,10.6,20
+000153,Breckenridge 471 Small Batch ESB,55,7.8,20
+000154,Breckenridge 471 Small Batch IPA,70,9.2,20
+000155,Brew Kettle Dancin Bee,45,4,20
+000156,Brew Kettle EBSB,40,4.5,20
+000157,Brew Kettle Extra Special Bitter,50,4.5,20
+000158,BrewDog Hardcore IPA,-1,9,20
+000159,Brewdog Mikkeller I Hardcore You,-1,9.5,20
+000160,brewdog punk ipa,45,6.0,6
+000161,BrewDog Sink the Bismarck,-1,41,20
+000162,BrewDog Storm,-1,8,20
+000163,Brewer's Alley Resinator,-1,7.2,20
+000164,Brewery Ferment Bookstore Bitter,-1,5.5,20
+000165,Brewsters Belly Dancer,-1,5.2,20
+000166,Brewsters Daffys Elixir,-1,4.2,20
+000167,Brewsters Jezebel,-1,4.8,20
+000168,Brewsters Mata Hari,-1,4.8,20
+000169,Brewsters Rutterkin,-1,4.6,20
+000170,Brickside Chain Breaker,-1,8.8,20
+000171,BridgePort ESB,45,6.1,20
+000172,BridgePort Hop Czar Imperial IPA,87,7.5,20
+000173,BridgePort Hop Harvest Ale (2009),60,7,20
+000174,BridgePort Hop Harvest Ale (2011),-1,7,20
+000175,bridgeport kingpin double red ale,65,6.3,20
+000176,Bristol Edge City 1.5 IPA,122,8,20
+000177,Broad Ripple ESB Extra Special Bitter,-1,5.6,20
+000178,Broken Tooth Moonflower ESB,-1,5.1,20
+000179,Brooklyn Blast,53,9,20
+000180,Broughton Black Douglas,-1,5.2,20
+000181,Brownings Louis XVI Guillotine ESB,-1,5.7,20
+000182,Bubes Crazy 8,-1,8,20
+000183,Bubes ESB,-1,6.2,20
+000184,Buckeye Seventy-Six,100,7.9,20
+000185,Bull & Bush Man-Man Double IPA,-1,-1,20
+000186,Bull & Bush The Tower ESB,-1,6,20
+000187,Bullfrog Edgar IPA,-1,8,20
+000188,Burnside Alter Ego Imperial IPA,99.5,7.9,20
+000189,Burnside Stock Ale,51,5.8,20
+000190,Burton Bridge Festival Ale,-1,5.5,20
+000191,Burton Bridge Hearty Ale,-1,5,20
+000192,Butcher's Imperial Prime IPA,-1,9,20
+000193,Butte Creek Organic Revolution X Imperial IPA,97,9.1,20
+000194,Calapooia Riverdog ESB,-1,5.5,20
+000195,caldera dry hop red,100,5.8,20
+000196,Caledonian Ale Lang Syne,-1,4.6,20
+000197,Callys Bad Dog ESB,-1,5.2,20
+000198,Canoe River Rock Bitter,-1,5.2,20
+000199,Cape Ann Fishermans Greenhorn Double IPA,124,9,20
+000200,Capitol City Double IPA,-1,7,20
+000201,Capitol City ESB,-1,5.1,20
+000202,Capitol City Imperial IPA,-1,9,20
+000203,Captured By Porches Yggdrasil,55,9,20
+000204,Carton 077XX,80,7.8,20
+000205,Cascade Brewing Imperial Bi-Polar Double IPA,70,7.6,20
+000206,cascade lakes ira,78,6.8,20
+000207,Central City Double Crown IPA,-1,8.5,20
+000208,Central City Red Betty Imperial IPA,90,9,20
+000209,Central City Red Racer ESB,-1,5.5,20
+000210,Central Coast Terrace Hill Double IPA,99,9.5,20
+000211,Chama River Dangerous Intensions,-1,9,20
+000212,Chama River Dr. Strangehop,-1,8.7,20
+000213,Cheshire Cat Arrogant Brit,33,5.3,20
+000214,church brew absolution ale,45,5.8,20
+000215,Cigar City 110K+OT Batch #3,110,10,20
+000216,Circle Envy Amber,31,4.8,20
+000217,Climax Extra Special Bitter Ale,32,5.5,20
+000218,Clown Shoes Supa Hero IPA,-1,8,20
+000219,Coachs Extra Special Bitter,-1,-1,20
+000220,Coalition Bumps Bitter ESB,55.6,5.5,20
+000221,coalition king kitty red,59,5.74,20
+000222,Coast AYE SB Extra Special Bitter,-1,5.8,20
+000223,Coast Boy King Double IPA,-1,9.5,20
+000224,Coast Range Extra Special Bitter,-1,-1,20
+000225,Coast Range India Pale Ale,-1,-1,20
+000226,Coddington ESB,-1,4.9,20
+000227,cody north shore amber ale,40,5.9,17
+000228,Columbia River ESB,37.6,5.7,20
+000229,Columbia River Ground "N" Pound,86,8,20
+000230,Columbia River War Elephant,85,8.5,20
+000231,CooperSmiths Albert Damm Bitter,-1,4.8,20
+000232,CooperSmiths Sir Edmunds ESB,-1,6.4,20
+000233,Coronado Idiot IPA,-1,8.5,20
+000234,Crabtree E.S.B. (Extra Sexy Brewer),-1,6.25,20
+000235,crabtree serenity amber ale,45.6,6.1,17
+000236,Crouch Vale Fireball,-1,4.5,20
+000237,Crouch Vale Santas Revenge,-1,5,20
+000238,Crouch Vale The Conkeror,-1,4.3,20
+000239,Crown Valley Gunslinger Double IPA,93,8.3,20
+000240,Crux Half Hitch,80,10,20
+000241,Crux Insider,80,7.6,20
+000242,Crux Mosaic,85,10,20
+000243,Crux Outcast,60,7.6,20
+000244,Daleside Duff,-1,5,20
+000245,Dark Horse Double Crooked Tree IPA,-1,13.6,20
+000246,Dark Star Festival,-1,5,20
+000247,Dark Star Red Ale,-1,5,20
+000248,Dark Star Winter Meltdown,-1,5,20
+000249,De Molen Amarillo,77,9.2,20
+000250,De Molen Storm & Averij (Storm & Damage),-1,9.2,20
+000251,Delafield Imperial IPA,-1,10,20
+000252,Denver ChopHouse ESB,-1,5,20
+000253,Denver ChopHouse Extra Bitter Bitter,-1,-1,20
+000254,Deschutes Bachelor Bitter,43,5.4,20
+000255,Deschutes Bachelor ESB,-1,5.3,20
+000256,deschutes cinder cone red ale,55,5.3,20
+000257,deschutes green lakes organic ale,45,5,20
+000258,Deschutes Hop Henge Experimental IPA,95,8.75,20
+000259,Deschutes Hop Henge Imperial IPA,95,8.1,20
+000260,Deschutes Horizon Glacier ESB,-1,-1,20
+000261,Diamond Knot Industrial IPA,75,7.5,20
+000262,Dicks Best Bitter,50,5.6,20
+000263,Dicks Bottleworks IPA,-1,8.5,20
+000264,Dieu du Ciel Chaman,-1,8.5,20
+000265,Dieu du Ciel Mondix Ale,-1,8,20
+000266,Dieu du Ciel Voyageur des Brumes,-1,5,20
+000267,dirty hands 320 mule wheat,16,4.7,20
+000268,dirty hands lynch pale ale,47,4.7,6
+000269,dirty hands powder monkey black ipa,82,7.2,6
+000270,dirty hands redemption brown ale,18.2,5.8,20
+000271,dirty hands slow ryed ale,34,6.4,20
+000272,dirty hands victory ship stout,23,5.1,29
+000273,Dodging Duck Old Speckled Duck ESB,-1,5.4,20
+000274,Dogfish Head 120 Minute IPA,120,18,20
+000275,Dogfish Head 90 Minute IPA,90,9,20
+000276,dogfish head 90 minute ipa,90,9.0,6
+000277,Dogfish Head Burton Baton,80,10,20
+000278,Dogfish Head Hellhound On My Ale,100,10,20
+000279,Dogfish Head Squall IPA,-1,9,20
+000280,dos equis xx amber lager,23,5.5,17
+000281,Double Mountain Alpenbrew,40,5,20
+000282,Double Mountain Hop Lava,-1,7,20
+000283,Double Mountain Molten Lava,95,9,20
+000284,Downtown Grill White Mule ESB,-1,-1,20
+000285,Dragonmead Sir Williams ESB,-1,4.8,20
+000286,Drakes Denoginizer,90,9.75,20
+000287,Drakes Hopocalypse Double IPA,100,9.3,20
+000288,Drakes Hopocalypse Triple IPA,100,12.5,20
+000289,Draught House Double IPA,-1,8.5,20
+000290,Draught House Wilsons ESB,-1,5.9,20
+000291,Dry Dock Double IPA   (Seven Seas),90,9,20
+000292,dry dock evon's contrition copper,49,5.8,20
+000293,Dry Dock HMS Victory Amber,49,5.8,20
+000294,Duchy Originals Organic English Ale,-1,5,20
+000295,DuClaw Serum,-1,8,20
+000296,Dugges Gustafs Finger,-1,5.8,20
+000297,Dugges Never Mind The Bollox!,-1,9,20
+000298,Earth Cliche IPA,-1,7.2,20
+000299,Eddie McStiffs Extra Special Bitter,-1,-1,20
+000300,Eel River Earth Thirst Double IPA,92,8.2,20
+000301,El Toro Deuce,100,7.5,20
+000302,Element Extra Special Oak (ESO),26.5,7.75,20
+000303,element red giant,50,8,20
+000304,Elevator Bleeding Buckeye Red Ale,-1,-1,20
+000305,Elevator Imperial IPA,-1,-1,20
+000306,Elgoods Thin Ice,-1,4.7,20
+000307,Elgoods Warrior,-1,5.5,20
+000308,Elm City Brickyard ESB,-1,-1,20
+000309,elysian avatar jasmine ipa,45,6.3,6
+000310,Elysian The Wise ESB,39,5.9,20
+000311,Emelisse Black & Tan Bowmore BA,70,10,20
+000312,Emelisse Double IPA 9%,-1,9,20
+000313,Emelisse Triple IPA,103,10,20
+000314,Empyrean LunaSea ESB,31,6.3,20
+000315,Epic Hopulent IPA,-1,8.6,20
+000316,Epic Imperial IPA,-1,10.1,20
+000317,erie brewing mad anthonys ale,51.6,5.5,20
+000318,Eskes Special Bitter,-1,5,20
+000319,Eugene City Tracktown 300 Meter Ale,-1,120,20
+000320,Everybodys Bro Brah Bitter ESB,40,5.3,20
+000321,Evil Twin Before During and After Christmas Beer,-1,10,20
+000322,Evil Twin Disco Beer,-1,10,20
+000323,Evil Twin Yang,-1,10,20
+000324,Evolution Exile ESB,48,5.9,20
+000325,evolution incubator #2,50,5.8,20
+000326,Evolution Lot No 6 Double IPA,75,8.5,20
+000327,Farmington River Mahogany Ale,-1,-1,20
+000328,Fearless ESB,67,5,20
+000329,Fearless Mjolnir Imperial IPA,-1,6.9,20
+000330,Fegleys Brew Works ESB,-1,5.4,20
+000331,Fegleys Brew Works HopSolutely,100,11.5,20
+000332,Fire Mountain Cold Cold Billy Double IPA,92,7.8,20
+000333,Fire Station 5 Fire Drill ESB,27,5.4,20
+000334,Firebrand Great British Beer,-1,5,20
+000335,firehouse grill hefeweizen,3,5,20
+000336,Firestone Walker Double Jack IPA,-1,9.5,20
+000337,Fitgers Witchtree ESB,-1,5.6,20
+000338,Flagstaff Bitterroot Extra Special Bitter,41,5,20
+000339,Flat Tail Licentious Goat,-1,8.5,20
+000340,Flat Tail Some Like It Hop,90,10,20
+000341,Fletcher Street Double IPA,-1,7.5,20
+000342,Florida Beer Swamp Ape DIPA,-1,10,20
+000343,Flying Dog Imperial IPA Centennial Single Hop,70,10,20
+000344,Flying Dog Imperial IPA Citra Single Hop,70,10,20
+000345,Flying Dog Imperial IPA El Dorado Single Hop,70,10,20
+000346,Flying Dog Imperial IPA Galaxy Single Hop,70,10,20
+000347,Flying Dog Imperial IPA Nelson Sauvin Single Hop,70,10,20
+000348,Flying Dog Imperial IPA Simcoe Single Hop,70,10,20
+000349,Flying Dog Imperial IPA Sorachi Ace Single Hop,70,10,20
+000350,Flying Fish ESB Ale,-1,5.5,20
+000351,Flying Fish Exit 16 WE,-1,8.2,20
+000352,Flying Goose Hominy Pot ESB,-1,6.3,20
+000353,Flying Monkeys Alpha Fornication,2500,13.3,20
+000354,Flying Monkeys Super Collider,160,12,20
+000355,Foothills Rainbow Trout ESB,45,4.5,20
+000356,Foothills Seeing Double IPA,126,9.4,20
+000357,Fort Collins The Incredible Hop - Imperial India Wheat Ale,-1,9.5,20
+000358,Fort Street FIPA,125,8.75,20
+000359,Founders Devil Dancer Triple IPA,200,13,20
+000360,Founders Imperial IPA,-1,9.9,20
+000361,Four Friends Extinction,-1,9.4,20
+000362,Free State C3 IPA,95,7.8,20
+000363,Free State Janes ESB,-1,45,20
+000364,Free State Kings Cross ESB,-1,50,20
+000365,Freeminer Celestial Steam Gale,-1,5,20
+000366,Freeminer Shakemantle Ginger Ale,-1,5,20
+000367,Freeminer Speculation Ale,-1,4.8,20
+000368,freetail ale,40,6,20
+000369,Freetail Broken Treaty,45,6.9,20
+000370,Freetail Hopothesis A,125,13.3,20
+000371,Freetail Phantom of the Hopera Dub'l IPA,69,9.6,20
+000372,French Broad 13 Rebels ESB,-1,5.2,20
+000373,Frog Island Castle Bravo,-1,11,20
+000374,Front Street ESB,-1,4.7,20
+000375,Full Pint Tri-PA,-1,9,20
+000376,Full Sail Brewer's Share Extra Special Barney (ESB),35,6.5,20
+000377,Full Sail Elevation,80,7.5,20
+000378,full sail ipa,60,6.0,6
+000379,full sail nugget special red ale,45,6.5,20
+000380,Full Sail Slipknot Imperial IPA,-1,7.8,20
+000381,Fullers ESB,-1,5.9,20
+000382,Fullers India Pale Ale,-1,4.8,20
+000383,Fullers Jack Frost,-1,4.5,20
+000384,Gales HSB,-1,4.8,20
+000385,Gardner Ale House Face-off Double IPA,-1,9.5,20
+000386,Gardner Ale House Xtra Special Bitter (XSB),-1,5,20
+000387,Gaslight Citra E.S.B.,-1,6.2,20
+000388,Gaslight Extra Special Bitter,-1,6.2,20
+000389,Gearys Imperial IPA,-1,8.2,20
+000390,General Lafayette Union Jack,-1,5.3,20
+000391,General Lafayette West Coast IPA,90,7.2,20
+000392,georgetown choppers red ale,58,6,20
+000393,Gigantic Dynomite!,90,8.9,20
+000394,Gigantic Ginormous IPA,-1,8.8,20
+000395,Glacier Double IPA,-1,7.61,20
+000396,Glacier Extra Special Bitter,-1,-1,20
+000397,Glenwood Canyon Red Mountain ESB,-1,-1,20
+000398,Golden City Stand-Up Double IPA,-1,9.6,20
+000399,Golden Valley Erratic Rock Bitter,-1,4.8,20
+000400,golden valley red thistle ale,40,5,20
+000401,Golden Valley Red Thistle Quercus,38,5.8,20
+000402,GoodLife Comatose Imperial IPA,95,9.5,20
+000403,Goose Island Best Bitter,-1,5,20
+000404,Goose Island Harvest Ale,35,5.7,20
+000405,Grand Teton Bitch Creek ESB,60,6.5,20
+000406,Grand Teton Double IPA,-1,7.5,20
+000407,Great Divide 15th Anniversary Wood Aged Double IPA,-1,10,20
+000408,Great Divide Hercules Double IPA,85,9.1,20
+000409,Great Divide HotShot ESB,-1,5,20
+000410,great lakes independence ale,45,6,20
+000411,Great Lakes Moondog Ale,25,5,20
+000412,Great Lakes York Street Bitter,45,5.5,20
+000413,Great Northern Big Fog ESB,46,6.8,20
+000414,Green Flash Green Bullet,-1,10.1,20
+000415,green flash hop head red,45,6.3,20
+000416,Green Flash Imperial IPA,101,9,20
+000417,Green Flash Palate Wrecker,149,9.5,20
+000418,Green Flash Road Warrior,80,9,20
+000419,Green Man ESB,-1,5.5,20
+000420,Green Man Rainmaker,-1,9.9,20
+000421,Greenbush Brother Benjamin,114,10.1,20
+000422,Greene King Abbot Ale,-1,5,20
+000423,Gritty McDuffs Christmas Ale,28.5,6.2,20
+000424,Gritty McDuffs Halloween Ale,-1,6,20
+000425,Gritty McDuffs Monster Mash,-1,7.6,20
+000426,Hair of the Dog Blue Dot Imperial IPA,100,7,20
+000427,Hales Aftermath Imperial IPA,-1,8.4,20
+000428,hales red menace big amber,35,5.3,17
+000429,Hales Special Bitter (Special HSB),-1,4.7,20
+000430,Hales Supergoose IPA,80,7.4,20
+000431,Hambleton Thoroughbred,-1,5,20
+000432,Hampshire Bonfire Bitter,-1,4.2,20
+000433,Hampshire Hare,-1,4.8,20
+000434,Hampshire Merlins Magic,-1,5,20
+000435,Hampshire Pedragon,-1,4.8,20
+000436,Hampshire Seduction,-1,4.5,20
+000437,Harmon Browns Point ESB,40,5.4,20
+000438,Harmony Grote Pier,-1,9,20
+000439,Harpoon 100 Barrel Series #07 - Union Street Revival Ale,36,6.6,20
+000440,Harpoon 100 Barrel Series #31 - Single Hop ESB,-1,5.8,20
+000441,Harpoon ESB,-1,5.5,20
+000442,harpoon ipa,42,5.9,6
+000443,Harpoon Leviathan Imperial IPA,122,10,20
+000444,Harpoon Union Street Revival Ale,-1,6.6,20
+000445,Hart & Thistle High Voltage,100,7.8,20
+000446,Hart & Thistle Hop Mess Monster v2.0,1066,9.2,20
+000447,Hart & Thistle Hyperhidrosis,100,8.5,20
+000448,hart & thistle irreverence harvest ale,50,6,20
+000449,Hart & Thistle Rocket Man,186,8,20
+000450,Harvest Moon Charlie Russell Red,-1,-1,20
+000451,Harvest Moon Citra Double IPA,-1,8.3,20
+000452,Harvest Moon Columbus Double IPA,-1,8,20
+000453,Harvest Moon Hops² Double IPA,-1,8.3,20
+000454,Harveys Armada Ale,-1,4.5,20
+000455,Harveys Southdown Harvest Ale,-1,5,20
+000456,Harveys Star of Eastbourne,-1,5,20
+000457,Harviestoun Old Manor,-1,4.6,20
+000458,Harviestoun Santas Stocking Filler,-1,4.5,20
+000459,Hawks Super Natural ESB,-1,6.5,20
+000460,Hazel Dell Imperial IPA,75,6.8,20
+000461,heady topper,75,8.0,20
+000462,Heathen Megadank,120,8.2,20
+000463,heathen promiscuous blonde,19,5.5,3
+000464,heathen rip porter,31,6.1,24
+000465,Heathen Son of Malice,90,8.7,20
+000466,heathen son of malice iipa,95,8.7,20
+000467,heathen transcend ipa,55,6.7,6
+000468,heathen transgression ipa,80,7.5,6
+000469,heathen vantucky pale ale,43,5.8,6
+000470,Heavy Seas Mutiny Fleet Big DIPA (-2012),75.5,10.6,20
+000471,Heavy Seas Uncharted Waters The Big DIPA (2013-),75.5,10.5,20
+000472,HeBrew Bittersweet Lennys R.I.P.A.,-1,10,20
+000473,Hepworth Iron Horse,-1,4.8,20
+000474,Heretic Evil Cousin,100,8,20
+000475,heretic evil twin,45,6.8,20
+000476,Hideout Double Bubble DIPA,-1,10.2,20
+000477,High Desert Anniversary Ale,-1,8,20
+000478,High Desert Extra Special Bitter,-1,5,20
+000479,high noon tonganoxie honey wheat,7,4.46,20
+000480,High Point E.S.B.,-1,-1,20
+000481,Highlands Hollow Thunder Monkey,-1,-1,20
+000482,Hill Farmstead Abner,170,8.2,20
+000483,Hill Farmstead Ephraim,280,10.3,20
+000484,Hill Farmstead Galaxy,-1,8,20
+000485,hilliard's amber ale,46,5.5,17
+000486,Hollister Hip Hop Double IPA,-1,9,20
+000487,Hook Norton Old Hooky (Bottle),-1,4.6,20
+000488,Hook Norton Old Hooky (Cask),-1,4.6,20
+000489,Hop Back Winter Lightning,-1,5.5,20
+000490,Hop Valley Alpha Centauri Binary IPA,100,8.5,20
+000491,hop valley natty red,85,8,20
+000492,hop valley stepchild red,80,6.1,20
+000493,Hoppin Frog Fresh Frog Raw Hop Imperial Pale Ale,45,7.8,20
+000494,Hoppin Frog Hop Dam Triple IPA,-1,10,20
+000495,Hoppin Frog Mean Manalishi Double IPA,168,8.2,20
+000496,Hopworks Ace of Spades,100,9.2,20
+000497,Hopworks Evelyn's Sunshine Imperial IPA,90,7.5,20
+000498,hopworks rise up red,60,5.79,20
+000499,Hopworks Velvet ESB,30,5.2,20
+000500,Howe Sound Bailout Bitter,16,5,20
+000501,Howe Sound Baldwin and Cooper Best Bitter,52,5.5,20
+000502,Howe Sound Total Eclipse of the Hop,90,8,20
+000503,Hunter Gatherer ESB,-1,-1,20
+000504,Huvila ESB,48,5.2,20
+000505,Imperial Mucho Aloha IPA,-1,10,20
+000506,Independence Brewing ESB,44,6,20
+000507,Inveralmond Pundie,-1,5,20
+000508,Iron Hill ESB,35,4.5,20
+000509,Iron Hill Imperial IPA,90,7.2,20
+000510,Iron Horse Beer Shoppe 1st Anniversary Imperial IPA,-1,10,20
+000511,Iron Springs Casey Jones Imperial IPA,-1,8,20
+000512,iron springs epiphany ale,69,5,20
+000513,Iron Springs McCarys ESB,-1,-1,20
+000514,Isle of Skye Blaven,-1,5,20
+000515,ithaca cascazilla,50,7,20
+000516,Ithaca Double IPA,-1,10,20
+000517,Ithaca Excelsior! AlpHalpHa,-1,8.5,20
+000518,J.W. Lees John Willies,-1,5,20
+000519,J.W. Lees Ruddy Glow,-1,4.5,20
+000520,JailHouse Hop Riot,-1,8,20
+000521,Jamesport ESB,-1,4.8,20
+000522,Jamtlands Fallen Angel,-1,5,20
+000523,Jamtlands Postiljon,-1,5.8,20
+000524,Jasper Murdocks Extra Special Bitter,-1,6.2,20
+000525,Joseph James Hop Box Imperial IPA,90,9.3,20
+000526,Kane Overhead,100,8.2,20
+000527,Karl Strauss Big Toe Double IPA,-1,9,20
+000528,Karl Strauss Double/Imperial IPA,-1,9,20
+000529,Karl Strauss Extra Special Bitter,-1,5.6,20
+000530,kauai island cane fire red,50,6.3,20
+000531,Kellys Brew Pub ESB,50,5.6,20
+000532,Kenai River C.I.R.P.A.,103,9,20
+000533,Kenai River Eagle Rock ESB,-1,-1,20
+000534,Kennebec ESB,-1,-1,20
+000535,Klamath Basin Lone Pine Double IPA,95,8.6,20
+000536,klamath basin rebellion red ale (drop dead red),52,5.9,20
+000537,Knee Deep Hop Shortage Triple IPA,133,11.5,20
+000538,Knee Deep Hoptologist DIPA,102,9,20
+000539,Knee Deep Simtra Triple IPA,131,10.1,20
+000540,Kuhnhenn American Extreme IPA,-1,7.1,20
+000541,LaConner ESB,-1,6,20
+000542,Lafayette Eastside Bitter,38,5.3,20
+000543,Lagunitas Hop Stoopid,102,8.2,20
+000544,Lagunitas Maximus,72.4,7.5,20
+000545,Lake Placid Leaping Cow Ale,-1,6.5,20
+000546,Lake Superior Cabin Fever ESB,-1,-1,20
+000547,Lakefront Organic ESB,-1,5.5,20
+000548,Laughing Dog AlphaDog Imperial IPA,127,8,20
+000549,Laughing Dog Crotch Sniffing Bastard (CSB),-1,5.5,20
+000550,Laughing Dog Devil Dog Imperial IPA,98,10,20
+000551,Laurelwood Imperial Workhorse IPA,-1,9.5,20
+000552,laurelwood organic free range red,60,6.1,20
+000553,Laurelwood Organic Green Mammoth Imperial IPA,85,9,20
+000554,Lawsons Finest Double Sunshine IPA,-1,8,20
+000555,Lawsons Finest Hopzilla Double IPA,-1,8.7,20
+000556,Le Naufrageur Machault,32,5.2,20
+000557,Leavenworth Ingall's Extra Special Bitter,40,4,20
+000558,Left Coast Hop Juice,82,9.7,20
+000559,Left Hand Sawtooth Ale,27,5.3,20
+000560,Left Hand Twin Sisters Double IPA,87,9.6,20
+000561,legacy hedonism red,110,7.1,20
+000562,Legend ESB,-1,6.5,20
+000563,Legend Imperial IPA,126,8,20
+000564,Leinenkugels Big Eddy Imperial IPA,80,8.2,20
+000565,Les Brasseurs du Temps Diable au Corps,100,9.5,20
+000566,Les Brasseurs du Temps ESB 1821,-1,5.5,20
+000567,Liberal Cup Ex-Wife Extra Bitter,-1,6.7,20
+000568,Liberty Street 42nd Parallel,-1,8.6,20
+000569,lilys reggies french river red ale,48,5.8,20
+000570,Little Creatures Single Batch The Big Dipper,55,7.8,20
+000571,Lompoc C-Sons Greetings,-1,8,20
+000572,Lompoc Millenium IIPA,-1,7.5,20
+000573,lompoc proletariat red,69,6.2,20
+000574,long trail brewmaster series centennial red,60,7.9,20
+000575,Long Trail Brewmaster Series Double IPA,86,8.6,20
+000576,loowit gaibolical organic pale ale,45,5.3,6
+000577,loowit shadow ninja ipa,50,6.8,6
+000578,loowit shimmergloom stout,42,6.0,29
+000579,loowit storm shadow iipa,99,9.0,20
+000580,loowit tiger squadron pale ale,45,5.0,6
+000581,loowit two sixteen red,25,5.0,20
+000582,Lord Nelson Victory Bitter,-1,4.5,20
+000583,Lost Coast Double Trouble IPA,-1,8.5,20
+000584,Lost Rhino Hop Star,150,10.1,20
+000585,Lost Rhino Ice Breaker,99,9.2,20
+000586,Lucid Duo,75,9,20
+000587,Lucky Labrador Hawthornes Best Bitter,26,4.5,20
+000588,Lumberyard Imperial IPA,100,9.5,20
+000589,mad river jamaica red ale,48,6.6,20
+000590,Mad River Jamaica Sunrise ESB,36,5.4,20
+000591,Mad River Steelhead Double IPA,95,8.6,20
+000592,Madison River Irresistable ESB,-1,6.4,20
+000593,Magic Hat Batch 375 (Imperial IPA),-1,8,20
+000594,Magic Hat Wooly,40,4.5,20
+000595,Magnolia Blue Bell Bitter,-1,5.4,20
+000596,Magnolia Proving Ground Pale,100,7,20
+000597,Maine Beer Dinner,-1,8.2,20
+000598,Mammoth IPA 395,50,8,20
+000599,Manayunk California Dreamin,65,8.5,20
+000600,manayunk hop phanatic,50,8.2,20
+000601,Marble Double India Pale Ale,-1,8,20
+000602,Marin Eldridge Grade White Knuckle Double IPA,-1,8,20
+000603,Maritime Pacific Imperial Pale Ale,-1,7.5,20
+000604,Maritime Pacific Salmon Bay ESB,-1,5.5,20
+000605,Market Cross Olde Yeller IPA,-1,7.2,20
+000606,marshall revival red ale,62,6.5,20
+000607,Marshall Wharf Big Twitch,-1,8.25,20
+000608,Marshall Wharf Cant Dog Imperial IPA,-1,10,20
+000609,Marthas Exchange Dr. Hoppenstein,-1,9.1,20
+000610,Maui Brewing Lorenzini Blood Orange Double IPA,64,8,20
+000611,mayflower spring hop ale,37,5.2,20
+000612,McEwans 90 Shilling,-1,5.5,20
+000613,mcmenamins dark vader porter,28,6.2,24
+000614,mcmenamins delta force ipa,97,7.35,6
+000615,McMenamins Double Helix,100,8.5,20
+000616,mcmenamins hammerhead pale ale,44,5.93,6
+000617,mcmenamins jam session isa,59,4.9,20
+000618,mcmenamins lokis deception ipa,109,7.61,6
+000619,mcmenamins pints up pale,44,5.8,20
+000620,mcmenamins purple haze,00,4.39,20
+000621,mcmenamins ruby,00,6.3,20
+000622,mcmenamins ryed red,36,5.8,20
+000623,mcmenamins terminator stout,30,6.45,29
+000624,mcmenamins top sider wheat,26,5.55,20
+000625,McNeills Extra Special Bitter Ale,-1,5.5,20
+000626,McNeills Warlord Imperial IPA,85,8.5,20
+000627,Mendocino Imperial IPA,-1,8,20
+000628,mendocino red tail ale,35,6,20
+000629,Mendocino Winter Ale (05-06 - IIPA),-1,9,20
+000630,Mendocino Winter Seasonal Imperial IPA,-1,7.5,20
+000631,Mia and Pias Flash Flood E.S.B.,-1,4.8,20
+000632,Middle Ages 10th Anniversary Ale,-1,10,20
+000633,Middle Ages Beast Bitter,-1,5.3,20
+000634,Midnight Sun 11th Anniversary Double IPA,105,9,20
+000635,Midnight Sun Cohoho Imperial IPA,-1,8,20
+000636,Midnight Sun Gluttony,200,10.5,20
+000637,Midnight Sun Meltdown Double IPA,80,8,20
+000638,Midnight Sun Obliteration III,87,7.6,20
+000639,Midnight Sun Obliteration IV,70,7.8,20
+000640,Midnight Sun Operation Hay,108,7.8,20
+000641,Midnight Sun Wrath,100,8.2,20
+000642,Midtfyns Ale,-1,6.5,20
+000643,Midtfyns Double IPA,-1,9.2,20
+000644,Mikkeller 1000 IBU,1000,9.6,20
+000645,Mikkeller 1000 IBU Barrel Aged,1000,9.6,20
+000646,Mikkeller Drikkeriget DIPA,-1,10.1,20
+000647,Millstream Hop² Double IPA,85,7.5,20
+000648,Millys Tavern Hopzilla,100,8.1,20
+000649,Mishawaka Chinook Imperial IPA,-1,8,20
+000650,Mishawaka Loopy Lupilin,95,9.5,20
+000651,Mission Shipwrecked Double IPA,75,9.25,20
+000652,Montana Ale Works Blue Collar ESB,-1,5.8,20
+000653,Moonlight Twist of Fate Bitter Ale,-1,5.6,20
+000654,Moorhouses Amber Rambler,-1,4.8,20
+000655,Moorhouses Reinbeers Revenge,-1,4.5,20
+000656,Morland Old Speckled Hen,-1,5.2,20
+000657,Moylans Hopsickle Imperial India Pale Ale,-1,9.2,20
+000658,Moylans Moylander Double IPA,-1,8.5,20
+000659,Mt Hood Imperial IPA,-1,7.5,20
+000660,Mt Hood Pinnacle ESB,-1,-1,20
+000661,mt tabor asylum avenue ipa,64,6.3,6
+000662,mt tabor block 9 porter,34,6.0,24
+000663,mt tabor el cafe rojo red,27,5.3,20
+000664,mt tabor evolution pale ale,25,5.0,6
+000665,mt tabor faded roots honey blonde,19,5.0,3
+000666,mt tabor freaky deaky lager,51,8.1,20
+000667,mt tabor happy pint porter,00,6.0,24
+000668,mt tabor hudsons bay cda,68,6.3,20
+000669,mt tabor jacks longest leap,71,6.5,20
+000670,mt tabor lapellah v.4.0,27,5.0,20
+000671,mt tabor lifter ipa,86,6.8,6
+000672,mt tabor little bull stout,71,7.2,29
+000673,mt tabor p5 pale ale,49,5.4,6
+000674,mt tabor red lion red,27,5.3,20
+000675,mt tabor rocket blonde,36,7.4,3
+000676,mt tabor toasty nuts autumn ale,36,5.8,20
+000677,mt tabor torqued,49,5.4,20
+000678,mt tabor training wheels session pale ale,32,4.8,6
+000679,mt tabor wild red,27,5.3,20
+000680,Mt. Emily Ale House Double IPA,150,8,20
+000681,mt. emily ale house wild flower red,55,7.6,20
+000682,Mt. Pleasant Freight Train Double IPA,-1,8.6,20
+000683,mt. shasta abner weed amber ale,41.8,5.5,17
+000684,Mudshark Pub Draft ESB,-1,4.4,20
+000685,Narke Huvill,-1,8.5,20
+000686,Narke Orebro Bitter,-1,5.8,20
+000687,Narragansett Private Stock Imperial India Pale Ale,122,8.6,20
+000688,Natian Old Grogham Winter IPA,86,8.5,20
+000689,Natty Greenes Cannonball Double IPA,81,8,20
+000690,Natty Greenes Sir Walters ESB,-1,5.2,20
+000691,Nethergate Augustinian Ale,-1,5.2,20
+000692,Nethergate Dirty Dicks Audit Ale,-1,5.2,20
+000693,New Albanian Beak's Best,35,5.3,20
+000694,New Albanian Hoptimus,100,10.7,20
+000695,New Albanian Yakima,130,7.5,20
+000696,New Belgium / Elysian The Trip XIV Imperial Fresh Hop,-1,8.6,20
+000697,New Belgium 2° Below Winter Ale,32,6.6,20
+000698,New Belgium Rampant Imperial IPA,85,8.5,20
+000699,new belgium red hoptober,60,6,20
+000700,New England Gandhi-Bot Double IPA,85,8.8,20
+000701,Newcastle Werewolf,-1,4.5,20
+000702,Newport Storm Chloe,56,8.6,20
+000703,Ninkasi Babylon Double IPA,100,9.1,20
+000704,Ninkasi Tricerahops Double IPA,100,8.8,20
+000705,No-Li Jet Star Imperial IPA,115,8.1,20
+000706,No-Li Spin Cycle Red ESB (Crystal Bitter Ale),49,5.75,20
+000707,NoDa NoDaRyeZ?d Double Rye Indian Pale Ale,90,8.9,20
+000708,Nodding Head 3C Extreme Double IPA,-1,10,20
+000709,Nodding Head Hoptimus Prime,-1,12,20
+000710,Nodding Head Wumpus,-1,-1,20
+000711,Nogne O Bitter,-1,4.5,20
+000712,Norrebro North Bridge Extreme,-1,9.6,20
+000713,North By Northwest Green Menace,-1,7,20
+000714,north coast reudrichs red seal ale,45,5.5,20
+000715,North End 5-Way IPA,-1,8,20
+000716,North Peak Hoodoo Midwest Wet Hop IPA,99,9,20
+000717,north peak siren amber ale,48,5,17
+000718,Northampton Daniel Shays Best Bitter,-1,5.7,20
+000719,Northampton Double Take IPA,-1,9,20
+000720,Northampton Sno-Shovel ESB (Sandshovel),-1,6,20
+000721,Nynashamns Bedaro Bitter,-1,4.6,20
+000722,Oakshire Imperial IPA (Perfect Storm),-1,8.4,20
+000723,Odell Myrcenary,-1,9.3,20
+000724,Oggis Big Guy Double IPA,-1,8.3,20
+000725,Oggis Ding Ding Double IPA,-1,10.5,20
+000726,Oggis IP-271,-1,8.3,20
+000727,olafabrikken i.r.a.,55,6,20
+000728,Old Boys Kennel King Double IPA,103,8.1,20
+000729,old market hop on!,87,5,20
+000730,old market mr. toads wild red ale,50,6.2,20
+000731,Old Market Rat Dog ESB,35,5.93,20
+000732,Old Market The Kraken Imperial IPA,103,8.9,20
+000733,Old Schoolhouse Imperial IPA,-1,9,20
+000734,Old Schoolhouse New School ESB,-1,5.5,20
+000735,Olde Auburn Hop Tea Double IPA,-1,-1,20
+000736,Olde Hickory Death by Hops,108,7,20
+000737,Olde Hickory Wilson Creek ESB,-1,-1,20
+000738,Olfabrikken 100 gram IPA,100,8.5,20
+000739,Olfabrikken Batch #100,-1,10,20
+000740,Oliver ESB,-1,6,20
+000741,Opa-Opa Steakhouse A-10 Warthog IPA,-1,13.75,20
+000742,Orkney Red MacGregor,-1,5,20
+000743,Oskar Blues Deviant Dale?s India Pale Ale,85,8,20
+000744,Otter Ale,-1,4.5,20
+000745,Otter Claus,-1,5,20
+000746,Otter Creek ESB,-1,-1,20
+000747,Otter Head,-1,5.8,20
+000748,Outer Banks Moondog ESB,-1,5.4,20
+000749,Pacific Coast Harpoon ESB,-1,6,20
+000750,Pacific Coast Holiday Imperial ESB,-1,7.9,20
+000751,pacific crest dryhopped red,50,5.3,20
+000752,Palisade Dually I2PA,-1,-1,20
+000753,Papago Hop Father Imperial IPA,100,7,20
+000754,Papago Hop Shortage,-1,-1,20
+000755,Paper City Blonde Hop Monster,-1,8.5,20
+000756,Patchwork Old Swamp Double IPA,-1,7.6,20
+000757,payette slaughterhouse india red ale,70,7.5,20
+000758,Peace Tree Double IPA,-1,9,20
+000759,peak organic amber ale,37,4.9,17
+000760,peak organic fall summit ale,65,6.7,20
+000761,pelican anglers amber ale,35,6.7,17
+000762,Pelican Imperial Pelican,-1,8,20
+000763,Pelican Nestucca ESB,-1,5.4,20
+000764,Pennichuck Chiefs Imperial IPA,106,10,20
+000765,Pensacola Bay Extra Special Bitter,55,6,20
+000766,pensacola bay riptide amber,40,5.4,17
+000767,People's Pint Double IPA,-1,7.8,20
+000768,Perrin Double IPA,60,8.9,20
+000769,Phantom Canyon ESB,-1,5.5,20
+000770,phat matt's red,50,6.5,20
+000771,Phillips Accusation Ale,-1,5,20
+000772,Phillips Amnesiac Double IPA,-1,8.5,20
+000773,Phillips Crazy 8s Annu-Ale,-1,8,20
+000774,Pike FSB,58,5.8,20
+000775,Pints Pub Alchemy ESB,-1,5.5,20
+000776,pioneer red ale,48,5.9,20
+000777,Pisgah ESB,-1,-1,20
+000778,Pitstop The Hop,323,8,20
+000779,Pizza Port Doheny Double IPA,-1,8,20
+000780,Pizza Port Poormans IPA,-1,10,20
+000781,Pizza Port Restoration Ale,-1,4.5,20
+000782,Pizza Port Zeppelin Rising,-1,8.6,20
+000783,Port Brewing Hop 15,-1,10,20
+000784,Port Brewing Mongo IPA,-1,8.5,20
+000785,Port Townsend Boatyard Bitter,-1,5.3,20
+000786,Portsmouth Extra Special Bitter,-1,6,20
+000787,Portsmouth Imperial IPA,-1,9,20
+000788,Portsmouth XX Bitter,-1,5.25,20
+000789,Pretty Things Hedgerow Bitter,-1,5.4,20
+000790,Pumphouse Escape Route ESB,-1,-1,20
+000791,Pumphouse Hot Shots Harvest Double IPA,-1,-1,20
+000792,pumphouse red alert,50,6,20
+000793,pyramid juggernaut red ale,45,5.6,20
+000794,Pyramid Outburst Imperial IPA,80,8.5,20
+000795,Queen City Speckled Rooster,-1,-1,20
+000796,Raasted Festival IPA,335,7.5,20
+000797,Raccoon Lodge Imperial English IPA,-1,7,20
+000798,Raccoon Lodge Oak-Aged Imperial IPA,-1,7.5,20
+000799,RCH Firebox,-1,6,20
+000800,RCH Steam Pole,-1,4.9,20
+000801,RCH Steam Showers,-1,4.8,20
+000802,ReaperAle Sleighor Double IPA,-1,9.1,20
+000803,Red Rock Special Bitter,-1,-1,20
+000804,Redfish Old School ESB,-1,5.5,20
+000805,Redhook Big Ballard Imperial IPA,-1,8.6,20
+000806,Redhook Blueline Series Extra Special Birthday,65,6.5,20
+000807,Redhook ESB,24.3,5.77,20
+000808,Renaissance MPA,-1,8.5,20
+000809,Ridgeway Blue,-1,5,20
+000810,Ridgeway IPA,-1,5.5,20
+000811,Right Brain Satisfaction ESB,-1,6,20
+000812,Rikenjaks ESB,-1,-1,20
+000813,Ringwood Old Thumper Extra Special Ale (USA version),-1,5.9,20
+000814,River Horse Hopalotamus,93,8.3,20
+000815,River Horse Special Ale ESB,-1,4.5,20
+000816,RJ Death Valley,-1,8,20
+000817,Robinsons Double Hop,-1,4.8,20
+000818,Robinsons Trooper,-1,4.7,20
+000819,Rochester Mills Brick Shot ESB,-1,5.4,20
+000820,Rock Art Belvidere Big IPA,-1,8,20
+000821,Rock Art IPA (II),-1,8,20
+000822,Rock Art Magnumus Ete Tomahawkus ESB3 Ale,-1,8,20
+000823,Rockslide ESB,-1,-1,20
+000824,Rockyard Castlewood ESB,-1,5.2,20
+000825,rogue american amber ale (sea otter)(red fox),53,5.1,17
+000826,rogue captain sigs deadliest ale,80,6.2,20
+000827,rogue dry hopped st. rogue red ale,44,5.2,20
+000828,Rogue Imperial India Pale Ale,53,8.4,20
+000829,Rogue Imperial Pale Ale (I2PA),53,9.5,20
+000830,Rogue Imperial Youngers Special Bitter,52,7.4,20
+000831,rogue saint rogue red,44,5.2,20
+000832,rogue santas private reserve,65,6,20
+000833,Rogue Ten Thousand Brew Ale (Brew 10000),83,10,20
+000834,Rogue Youngers Special Bitter,35,4.8,20
+000835,roots organic fall summit ale,64,5.9,20
+000836,roots organic island red,62.5,5.6,20
+000837,Roots Organic Sharkbite Imperial IPA,-1,-1,20
+000838,Roughtail Hoptometrist,100,10,20
+000839,roughtail red republic,40,5.7,20
+000840,Round Barn Bob?s Your Uncle,-1,4.8,20
+000841,Royal Oak Brewhouse ESB,-1,5.4,20
+000842,Rubicon T.C.B. E.S.B. R.I.P. E.A.P.,-1,-1,20
+000843,Ruddles County,-1,4.7,20
+000844,Ruddles Organic Ale,-1,5.1,20
+000845,Russian River ESB,35,5.5,20
+000846,Russian River Pliny the Elder,92,8,20
+000847,Russian River Pliny the Younger,-1,11,20
+000848,rusty truck fender bender amber ale,60,6.2,17
+000849,samuel adams coastal wheat,8,5.4,20
+000850,Samuel Adams LongShot Double IPA,-1,9,20
+000851,Samuel Adams Third Voyage Double IPA,80,8,20
+000852,San Luis Valley Early Iron ESB,-1,-1,20
+000853,SanTan Count Hopula,99,7.5,20
+000854,Saranac ESB,-1,5.5,20
+000855,Saranac Imperial IPA,85,8.5,20
+000856,Saranac India Copper Ale,-1,6,20
+000857,Sasquatch Moby Dick Double IPA,90,10.2,20
+000858,sasquatch or-7 amber ale,45,6.6,17
+000859,sasquatch red electric ira,70,6.7,20
+000860,Saugatuck Continuum Imperial IPA,110,8.5,20
+000861,Saugatuck ESB Amber,-1,5.4,20
+000862,Scheldebrouwerij Mug Bitter,-1,5,20
+000863,Schlafly Winter ESB,-1,6.8,20
+000864,Schmohz Hopknocker Imperial IPA,136,10,20
+000865,Schmohz Treasure Chest ESB,35,5.3,20
+000866,Schooner Exact Imperial Project,-1,9.5,20
+000867,scuttlebutt giant sequoia ale,42,4.9,20
+000868,Scuttlebutt Hoptopia,75,8,20
+000869,Seabright Blur Double IPA,-1,7.1,20
+000870,Seabright Castle Beach ESB,-1,4.9,20
+000871,Sebago Full Throttle Double IPA,-1,8.2,20
+000872,Second Street ESB,36,5.5,20
+000873,Seven Brides Frankenlou?s IPA,105,7,20
+000874,Shamrock Double Pale Ale,100,9.1,20
+000875,Shepherd Neame Bishops Finger,-1,5.4,20
+000876,Shepherd Neame Bishops Finger (Cask),-1,5,20
+000877,Ship Inn Extra Special Bitter,-1,5.2,20
+000878,Shipyard XXXX IPA (Pugsleys Signature Series),70,9.25,20
+000879,Shmaltz Mazel Hops,81,8.9,20
+000880,Shoreline 3 Sum IIPA,-1,8,20
+000881,Shorts Autumn Ale,31,6,20
+000882,Shorts Aww Jeah,-1,8.5,20
+000883,Shorts The Liberator,300,8,20
+000884,Sierra Nevada Beer Camp Ghidorah,-1,8.5,20
+000885,Sierra Nevada Chico IPA,-1,7.1,20
+000886,Sierra Nevada Early Spring Beer (ESB),45,5.9,20
+000887,Sierra Nevada Hopsichord,80,9.7,20
+000888,Sierra Nevada Hoptimum,100,10.4,20
+000889,Silver City Big Daddys ESB,-1,5.8,20
+000890,Silver City Saint Florian Firefighter IPA,55,6.8,20
+000891,Silver City Whoop Pass Double IPA,85,8.5,20
+000892,Silver Moon Badlands ESB,30,5,20
+000893,Silver Moon Hoptagon,99,9,20
+000894,silver moon voodoo dog,47,5.5,20
+000895,Silver Peak B Dubs Double Hopped IPA,-1,9,20
+000896,Silver Peak ESB,-1,6.3,20
+000897,Six Rivers Bourbon Barrel Double IPA,-1,9.5,20
+000898,Six Rivers ESB,-1,5.5,20
+000899,Six Rivers Sasquatch Ale,-1,9.3,20
+000900,Ska Decadent Imperial IPA,95,10,20
+000901,Ska ESB Special Ale,-1,-1,20
+000902,Skagit River Farm to Market ESB,33,5.6,20
+000903,Slab City W.C. Bitter,-1,-1,20
+000904,Sleeping Lady Break Up Extra Special Bitter,40,5,20
+000905,Sly Fox Jakes ESB,29,5.9,20
+000906,Sly Fox Odyssey Imperial IPA,90,8.4,20
+000907,Smuttynose Big A IPA,100,9,20
+000908,Snake River Jacksons ESB,-1,5.9,20
+000909,Snipes Mountain Red Sky Ale,-1,5.2,20
+000910,Snipes Mountain Sunnyside Pale Ale,-1,4.6,20
+000911,Snowshoe ESB,-1,6,20
+000912,Sockeye Hopnoxious Imperial IPA,-1,7.9,20
+000913,Southend Double IPA,-1,8.5,20
+000914,southern oregon woodshed red,65,5.8,20
+000915,Southern Tier 2xIPA,-1,8.2,20
+000916,Southern Tier Gemini,-1,10.5,20
+000917,Southern Tier Harvest Ale,-1,6.4,20
+000918,Southern Tier Oak Aged Un*Earthly Imperial IPA,-1,9.9,20
+000919,Southern Tier Un*Earthly Imperial IPA,153,9.5,20
+000920,Speakeasy Double Daddy IPA,-1,9.5,20
+000921,Spinnakers Blue Bridge Double IPA,-1,8.2,20
+000922,Spinnakers Mitchells ESB,-1,5.2,20
+000923,St. Ambroise Double IPA,77,8,20
+000924,Standing Stone Double India Pale Ale,95,7,20
+000925,Starr Hill Double Platinum,180,8.5,20
+000926,Steamworks Conductor Imperial IPA,-1,9,20
+000927,Steelhead Hopasaurus Rex,120,9.9,20
+000928,Steelhead Nigels ESB,-1,-1,20
+000929,Stegmaier 100th Anniversary IPA,-1,8.2,20
+000930,Stewarts Lockjaw IPA,-1,8.2,20
+000931,Stone 10th Anniversary IPA,-1,10,20
+000932,Stone 14th Anniversary Emperial IPA,100,8.9,20
+000933,Stone 16th Anniversary IPA,85,10,20
+000934,Stone 5th Anniversary IPA,-1,8.5,20
+000935,Stone Cat E.S.B.,-1,-1,20
+000936,Stone Coast 1260 Triple IPA,-1,10.5,20
+000937,Stone Coast 840 IPA,-1,8.5,20
+000938,Stone Enjoy By ... IPA,-1,9.4,20
+000939,stone levitation ale,55,4.4,20
+000940,Stone Ruination IPA,105,7.7,20
+000941,Stoudts Double IPA,-1,10,20
+000942,Stoudts Scarlet Lady Ale (ESB),-1,5,20
+000943,Sun King Bitter Druid,43,5.8,20
+000944,Sun King Cream Dream IV: A New Hop,100,9.4,20
+000945,Sun Valley Imperial IPA,-1,-1,20
+000946,Surly FF Double Furious Experimental,-1,-1,20
+000947,Swans Buckerfields Bitter,-1,5,20
+000948,Sweetwater ESB,-1,5.6,20
+000949,switchback roasted red ale,48,5.6,20
+000950,TableRock Spring Celebration,-1,6.5,20
+000951,Tallgrass Oasis ESB,93,7.2,20
+000952,Tenaya Creek Monsoon IPA,-1,8.7,20
+000953,Terminal BrewHouse O.P.P ESB,-1,45,20
+000954,Terminal Gravity ESG,19,5.4,20
+000955,Terra Firma Copper Grasshopper ESB,-1,5,20
+000956,Terra Firma Soul Butter Triple IPA,-1,8.8,20
+000957,Terrapin Big Hoppy Monster,73,8.75,20
+000958,Terrapin Big Sloppy Monster,-1,8.3,20
+000959,terrapin oak aged big hoppy monster,80,8.5,20
+000960,Terrapin Oak Aged Rye Squared,80,8.5,20
+000961,Terrapin Rye2 (Rye Squared),80,8.5,20
+000962,Thames American Festival Ale,-1,-1,20
+000963,Thames Welsh Ale,-1,-1,20
+000964,Thames Welsh ESB,-1,6,20
+000965,The Cambridge House Old Mill Pond ESB,-1,6.5,20
+000966,The Dudes Double Trunk,-1,10.8,20
+000967,The Filling Station D.C. ESB,-1,5.7,20
+000968,Theakston Coopers Butt,-1,4.3,20
+000969,Third Base Hopness Monster,85,8.5,20
+000970,Thirsty Dog Anniversary DUIPA,-1,7.5,20
+000971,thirsty dog hoppus maximus,43,5,20
+000972,Thomas Creek Up the Creek Extreme IPA,-1,12.5,20
+000973,three creeks firestorm red,65,5.7,20
+000974,Three Floyds Big Ups Bitter,-1,4.8,20
+000975,Three Floyds Dreadnaught Imperial IPA,100,9.5,20
+000976,Thunder Canyon ESB,-1,-1,20
+000977,titletown johnny,55,5,20
+000978,To Øl/Mikkeller Overall IIPA,408,10.5,20
+000979,Toppling Goliath Biter Double IPA,-1,154,20
+000980,Town Hall Big Dog,-1,8.2,20
+000981,Town Hall Broken Paddle ESB,-1,5.1,20
+000982,Trap Rock Fuggle Rock Ale,-1,4.7,20
+000983,Trap Rock Jet Fuel IPA,-1,8,20
+000984,Trinidad Picketwire ESB Special Ale,-1,-1,20
+000985,Triple Voodoo Kraken Imperial IPA,-1,9,20
+000986,Triumph Extra Special Bitter,-1,-1,20
+000987,Triumph ipX,-1,8.9,20
+000988,Trois Dames La Pasionaria Double IPA,110,9,20
+000989,Tugboat Extra Special Bitter (ESB),-1,-1,20
+000990,Turtle Mountain Essbuh EJB ESB,25,5.83,20
+000991,turtle mountain hop head red,45,6.1,20
+000992,Twains Stubborn River ESB,-1,5.7,20
+000993,Twains XL Double IPA,-1,8,20
+000994,Two Brothers Hop Juice,100.1,9.9,20
+000995,Tyranena Bitter Woman From Hell Extra IPA,-1,-1,20
+000996,Uinta Crooked Line Cahoots Double Rye IPA,-1,9.4,20
+000997,Uinta Crooked Line Detour Double India Pale Ale,74,9.5,20
+000998,uinta hazel,38,4,20
+000999,uinta trader season ipa,42,4.0,6
+001000,Uncle Billys Triumph ESB,-1,-1,20
+001001,Upstream Double IPA,-1,6.8,20
+001002,Upstream Firehouse ESB,-1,5.8,20
+001003,Uptown Bitter Brunette ESB,37,5,20
+001004,Vermont Pub Dogbite Bitter,-1,5.4,20
+001005,vertigo high altitude amber,40,5.1,17
+001006,Victory ESB,-1,5.3,20
+001007,Victory Hop Wallop,-1,8.5,20
+001008,Vinos Ouachita ESB,-1,-1,20
+001009,Vintage 50 ESB,-1,-1,20
+001010,Vintage 50 Molotov Hoptail,-1,9.2,20
+001011,Waimea Kawikas ESB,45,4.8,20
+001012,Walking Man Homo Erectus Imperial IPA,80,9,20
+001013,Walnut Brewery Big Horn Bitter,-1,5.3,20
+001014,water street panama red,60,6.2,20
+001015,Water Street Queen Nina Imperial IPA,-1,7.5,20
+001016,Wells Bombardier English Premium Bitter (Bottle),-1,5.2,20
+001017,Wells John Bull Finest Bitter,-1,4.1,20
+001018,Weyerbacher Camelopardalis,-1,10.2,20
+001019,Weyerbacher Double Simcoe IPA,-1,9,20
+001020,Weyerbacher ESB,-1,5.25,20
+001021,Weyerbacher Unfiltered Double Simcoe IPA,-1,9,20
+001022,Weyerbacher Viridis Lupulus,95,7.5,20
+001023,widmer brothers barrel aged brrrbon '13 imperial brrr seasonal ale,40,10.7,?
+001024,widmer brothers barrel aged old embalmer '13 barrel aged barleywine,75,10.2,?
+001025,widmer brothers blacklight ipa,60,4.2,6
+001026,widmer brothers brrr seasonal ale,50,7.2,20
+001027,widmer brothers citra blonde summer seasonal,20,4.3,3
+001028,widmer brothers downward spiral imperial ipa,84,9,6
+001029,widmer brothers drop top amber ale,18,5.3,17
+001030,Widmer Brothers Full Nelson,70,10,20
+001031,Widmer Brothers Halo,70,9.7,20
+001032,widmer brothers hefeweizen,30,4.9,20
+001033,Widmer Brothers Nelson Imperial IPA (Deadlift),70,8.6,20
+001034,widmer brothers saison a' fleurs farmhouse style ale,25,6.7,8
+001035,widmer brothers steel bridge porter,48,5.6,24
+001036,widmer brothers upheaval ipa,85,7,6
+001037,widmer brothers w06 n.w. red ale,50,7.15,20
+001038,Wild Onion Hop Slayer Double IPA,-1,8,20
+001039,Wild River ESB,-1,4.3,20
+001040,Williams Bros Seven Giraffes,-1,5.1,20
+001041,Williamsburg AleWerks Brewmasters Reserve Ironbound Ale,-1,9,20
+001042,Willimantic II IPA,-1,8.8,20
+001043,Willoughby Victoria Imperial IPA,-1,10.5,20
+001044,wimberley brewing red bitter,45,7.9,20
+001045,Wingman Pocket Aces 2x IPA,96,12,20
+001046,Wisby Brutal Bulldog Double IPA,-1,8.4,20
+001047,wisconsin rainbow red ale,42,4.7,20
+001048,Worth Otis ESB,49,5.8,20
+001049,Worthy Imperial IPA,85,8.5,20
+001050,Wychwood Hobgoblin (Bottle),32,5.5,20
+001051,Wychwood Hobgoblin (Cask),-1,5,20
+001052,Wye Valley Brew 69,-1,5,20
+001053,Wynkoop St. Charles ESB,-1,4.6,20
+001054,Yards Extra Special Ale,-1,5.5,20
+001055,Yellowstone Valley Renegade Red Ale,-1,5.9,20
+001056,Youngs Ramrod,-1,5,20
+001057,Youngs Special Bitter,-1,4.6,20
+001058,Youngs St Georges Ale,-1,5,20
+001059,Zero Gravity Ale Communication,-1,8,20
+001060,Zion Canyon Extra Special Bitter,36,4,20
+001061,zion canyon springdale amber ale,36,4,17

@@ -1,7 +1,7 @@
 #Import database as list of tuples
 def create_beer_dictionary():
 
-    file = open('database2.txt','r').readlines()
+    file = open('database.txt','r').readlines()
 
     beer_dictionary = {}
 
@@ -106,7 +106,6 @@ def new_beer(uas, search_exclude, beer_dictionary):
     while len(new_recommendation_list) == 0:
         ibu_variance += 5
         abv_variance += 5
-        add_beer = True
 
         #If the ibu variance has hit 50, there are no more beers to choose from.
         if ibu_variance == 50:
@@ -117,18 +116,22 @@ def new_beer(uas, search_exclude, beer_dictionary):
         Currently only works if the database has a number for both ibu and abv.
         Doesn't test for color."""
         for key, beer in beer_dictionary.iteritems():
+            add_beer = True
             try:
                 beer_ibu = float(beer[1])
                 beer_abv = float(beer[2])
 
                 if (beer_ibu >= (uas_ibu - ibu_variance)) and (beer_ibu <= (uas_ibu + ibu_variance)):
+                    add_beer = True
 
                     if (beer_abv >= (uas_abv - abv_variance)) and (beer_abv <= (uas_abv + abv_variance)):
+                        add_beer = True
 
                         for SE_key, code in search_exclude.iteritems():
 
                             if (int(SE_key) == int(key)) and ((code == 2) or (code == 0)):
                                 add_beer = False
+
                     else:
                         add_beer = False
 
@@ -144,7 +147,7 @@ def new_beer(uas, search_exclude, beer_dictionary):
     try:
         return new_recommendation_list
     except:
-        return "No beer found.", str(ibu_variance)
+        return False
 
 #update user file
 def update_userfile(search_exclude, username_directory, username):

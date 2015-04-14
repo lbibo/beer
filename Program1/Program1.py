@@ -335,7 +335,8 @@ def recommend_new():
         ### No new beer found.  This should never happen unless the variation variables are not increasing properly
         yes_button.grid_forget()
         no_button.grid_forget()
-        recommend_string = "Error: no new beer found."
+        recommend_string = "Beer search error: no beers found."
+
     elif len(new_recommendation_list) == 1:
         enable_recommend_buttons1()
         random_beer = 0
@@ -349,8 +350,10 @@ IBU: %s
 ABV: %s
 
 Have you tried this beer?""" % (beer_property_list[0], beer_property_list[1], beer_property_list[2])
+
     else:
         enable_recommend_buttons1()
+
         recommend_length = len(new_recommendation_list) - 1
         random_beer = random.randint(0, recommend_length)
         recommend_beer = new_recommendation_list[random_beer]

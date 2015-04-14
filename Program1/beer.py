@@ -105,7 +105,7 @@ def new_beer(uas, search_exclude, beer_dictionary):
     #continue increasing variance for ibu and abv until a match is found
     while len(new_recommendation_list) == 0:
         ibu_variance += 5
-        abv_variance += 5
+        abv_variance += 1
 
         #If the ibu variance has hit 50, there are no more beers to choose from.
         if ibu_variance == 50:

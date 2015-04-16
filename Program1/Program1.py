@@ -7,6 +7,107 @@ import random
 import beer
 import programfuncs
 
+###classes
+
+#User file class
+class Userfile:
+    def __init__(self, username, beer_dict = {}):
+        self.username = username
+        self.beer_dict = beer_dict
+
+    def set_username(self, user_input):
+        self.username = user_input.upper()
+
+    def get_username(self):
+        return self.username
+
+    def create_user(self, username_directory):
+        file = open(username_directory + self.username, 'w')
+        file.close()
+
+    def login(self, username_directory):
+        file = open(username_directory + self.username + '.txt', 'r')
+
+        linecount = 0
+
+        for line in file:
+            splitline = line.split(',')
+            splitline[-1] = splitline[-1].rstrip()
+
+            if linecount == 0:
+
+                for line_item in splitline:
+
+                    if line_item == 'LIKED:':
+                        continue
+                    elif line_item == 'DISLIKED:':
+                        linecount += 1
+                        break
+                    elif line_item == '\n':
+                        continue
+                    else:
+                        beer_dict[line_item] = 1
+
+            elif linecount == 1:
+
+                for line_item in splitline:
+
+                    if line_item == 'LIKED:':
+                        continue
+                    elif line_item == 'DISLIKED:':
+                        continue
+                    elif line_item == '\n':
+                        continue
+                    else:
+                        beer_dict[line_item] = 2
+
+            linecount += 1
+
+        file.close()
+
+    def add_beer(self, key, code):
+        beer_dict[key] = code
+
+    def update_userfile(self, username_directory):
+        liked_string = 'LIKED:'
+        disliked_string = 'DISLIKED:'
+        to_try_string = 'TO TRY:'
+
+        for key, code in beer_dict.iteritems():
+
+            if code == 1:
+                liked_string += ',' + str(key)
+            elif code == 2:
+                disliked_string += ',' + str(key)
+            elif code == 3:
+                to_try_string += ',' + str(key)
+
+        master_string = '%s\n%s\n%s' % (liked_string, disliked_string, to_try_string)
+
+        file = open(username_directory + self.username + '.txt', 'w')
+        file.write(master_string)
+        file.close()
+
+    def get_liked(self):
+        liked_list = []
+
+        for key, code in beer_dict.iteritems:
+
+            if code == 1:
+                liked_list.append[key]
+
+        return liked_list
+
+    def get_disliked(self):
+        disliked_list = []
+
+        for key, code in beer_dict.iteritems:
+
+            if code == 2:
+                disliked_list.append[key]
+
+        return disliked_list
+
 #gets the current file path
 current_directory = os.getcwd()
 #gets the path to the usernames
@@ -29,7 +130,7 @@ Username = None
 WIDTH = 600
 HEIGHT = 600
 #set background color to black
-bgcolor = '#000000'
+BGCOLOR = '#000000'
 #set entry box font color to dark gray
 entfontcolor = '#444444'
 #set console text color to yellow
@@ -45,7 +146,7 @@ consolefont = 'calibri'
 beerapp = Tk()
 beerapp.resizable(width = FALSE, height = FALSE)
 beerapp.title("Beer")
-beerapp.configure(background = bgcolor)
+beerapp.configure(background = BGCOLOR)
 beerapp.columnconfigure(0, weight = 1)
 beerapp.columnconfigure(1, weight = 1)
 beerapp.columnconfigure(2, weight = 1)
@@ -56,21 +157,21 @@ beerapp.rowconfigure(2, weight = 1)
 ###Create Sub-Frames###
 
 #create login screen
-login_buttons = Frame(beerapp, background = bgcolor, padx = 5)
+login_buttons = Frame(beerapp, background = BGCOLOR, padx = 5)
 login_buttons.grid(row = 1, column = 0)
 login_buttons.columnconfigure(0, minsize = int(WIDTH / 3), weight = 0)
 login_buttons.rowconfigure(0, minsize = int(HEIGHT / 3), weight = 0)
 login_buttons.rowconfigure(1, minsize = int(HEIGHT / 3), weight = 0)
 
 #create user input frame
-user_input_frame = Frame(beerapp, background = bgcolor, padx = 5)
+user_input_frame = Frame(beerapp, background = BGCOLOR, padx = 5)
 user_input_frame.grid(row = 1, column = 0)
 user_input_frame.columnconfigure(0, minsize = int(WIDTH / 3), weight = 0)
 user_input_frame.rowconfigure(0, minsize = int(HEIGHT / 3), weight = 0)
 user_input_frame.rowconfigure(1, minsize = int(HEIGHT / 3), weight = 0)
 
 #create console output frame
-console_output_frame = Frame(beerapp, background = bgcolor, padx = 15, pady = 15)
+console_output_frame = Frame(beerapp, background = BGCOLOR, padx = 15, pady = 15)
 console_output_frame.grid(row = 1, rowspan = 2, column = 1, columnspan = 2)
 console_output_frame.columnconfigure(0, minsize = int((WIDTH / 3) * 2), weight = 0)
 console_output_frame.rowconfigure(0, minsize = int((HEIGHT / 3) * 2), weight = 0)
@@ -89,14 +190,14 @@ def print_to_console(output):
 
 #Log in as existing user via "Enter" key
 def existingUser_login(event):
-    global Username, search_exclude
+    global User
 
     x = UserStr.get()
-    Username = x.upper()
+    User = Username.set_username(x)
 
-    if programfuncs.check_availableUser(Username, Username_list) is False:
+    if programfuncs.check_availableUser(User.get_username(), Username_list) is False:
         """read beers from user file into search exclusion list"""
-        search_exclude = beer.pull_userfile_beers(search_exclude, username_directory, Username)
+        User.login(username_directory)
 
         """Set global active settings"""
         login_screen_active = False
@@ -113,12 +214,11 @@ def existingUser_login(event):
         UserLabelStr.set('Logged in as ' + Username)
     else:
         """Pop up "No User Found." message box."""
-        ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % Username)
+        ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % User.get_username())
 
         if ask_new_user == 'yes':
             """Create user file"""
-            Userfile = open(username_directory + Username + '.txt', 'w')
-            Userfile.close()
+            User.create_user(username_directory)
 
             """force user to pick initial 'liked' beer"""
             enable_new_beer_entry()
@@ -133,14 +233,14 @@ def existingUser_login(event):
 
 #Log in as existing user via button
 def existingUser_loginbutton():
-    global Username, search_exclude
+    global User
 
     x = UserStr.get()
-    Username = x.upper()
+    User = Username.set_username(x)
 
-    if programfuncs.check_availableUser(Username, Username_list) is False:
+    if programfuncs.check_availableUser(User.get_username(), Username_list) is False:
         """read beers from user file into search exclusion list"""
-        search_exclude = beer.pull_userfile_beers(search_exclude, username_directory, Username)
+        User.login(username_directory)
 
         """Set global active settings"""
         login_screen_active = False
@@ -157,12 +257,11 @@ def existingUser_loginbutton():
         UserLabelStr.set('Logged in as ' + Username)
     else:
         """Pop up "No User Found." message box."""
-        ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % Username)
+        ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % User.get_username())
 
         if ask_new_user == 'yes':
             """Create user file"""
-            Userfile = open(username_directory + Username + '.txt', 'w')
-            Userfile.close()
+            User.create_user(username_directory)
 
             """force user to pick initial 'liked' beer"""
             enable_new_beer_entry()
@@ -543,7 +642,7 @@ def quit_program():
 UserLabelStr = StringVar()
 UserLabelStr.set("Not logged in.  Enter a Username.")
 login_status = Label(beerapp,
-               background = bgcolor,
+               background = BGCOLOR,
                foreground = consolecolor,
                font = consolefont,
                textvariable = UserLabelStr)
@@ -551,28 +650,28 @@ login_status.grid(row = 0, columnspan = 3)
 
 #new entry button
 new_entry_button = Button(beerapp,
-                     background = bgcolor,
+                     background = BGCOLOR,
                      foreground = butcolor,
                      text = "Add a beer to 'Preferred Beers'",
                      command = enable_new_beer_entry)
 
 #new recommendation button
 new_recommend_button = Button(beerapp,
-                     background = bgcolor,
+                     background = BGCOLOR,
                      foreground = butcolor,
                      text = "Find a new good beer",
                      command = recommend_new)
 
 #show user button
 show_user_button = Button(beerapp,
-                     background = bgcolor,
+                     background = BGCOLOR,
                      foreground = butcolor,
                      text = "Show user file",
                      command = show_user)
 
 #exit button
 exit_button = Button(beerapp,
-                     background = bgcolor,
+                     background = BGCOLOR,
                      foreground = butcolor,
                      text = "Exit",
                      command = quit_program)
@@ -601,7 +700,7 @@ Username_entry.grid(row = 0, sticky = W+S+E)
 existingUser_button = Button(login_buttons,
                              text = "Login as User",
                              relief = 'groove',
-                             background = bgcolor,
+                             background = BGCOLOR,
                              foreground = butcolor,
                              command = existingUser_loginbutton)
 existingUser_button.grid(row = 1, sticky = W+N+E)
@@ -609,7 +708,7 @@ existingUser_button.grid(row = 1, sticky = W+N+E)
 #Create output text box
 console_output_label = Label(console_output_frame,
                              justify = LEFT,
-                             background = bgcolor,
+                             background = BGCOLOR,
                              foreground = consolecolor,
                              font = consolefont,
                              wraplength = ((WIDTH / 3) * 2),
@@ -630,7 +729,7 @@ User_input_entry.grid_forget()
 input_button = Button(user_input_frame,
                       text = "Enter",
                       relief = 'groove',
-                      background = bgcolor,
+                      background = BGCOLOR,
                       foreground = butcolor,
                       command = input_button_click)
 input_button.grid_forget()
@@ -639,7 +738,7 @@ input_button.grid_forget()
 yes_button = Button(user_input_frame,
                     text = "Yes",
                     relief = 'groove',
-                    background = bgcolor,
+                    background = BGCOLOR,
                     foreground = butcolor,)
 yes_button.grid_forget()
 
@@ -647,7 +746,7 @@ yes_button.grid_forget()
 no_button = Button(user_input_frame,
                    text = "No",
                    relief = 'groove',
-                   background = bgcolor,
+                   background = BGCOLOR,
                    foreground = butcolor,)
 no_button.grid_forget()
 

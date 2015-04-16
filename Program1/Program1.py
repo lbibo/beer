@@ -513,7 +513,7 @@ def enable_recommend_buttons1():
 
 #Ask if user has tried recommended beer
 def tried_beer(response):
-    global yes_button, no_button, search_exclude, recommend_beer
+    global yes_button, no_button, recommend_beer
 
     yes_button.grid_forget()
     no_button.grid_forget()
@@ -522,8 +522,7 @@ def tried_beer(response):
         enable_recommend_buttons2()
         print_to_console("Did you like it?")
     else:
-        search_exclude[recommend_beer] = 0
-        print_to_console(search_exclude)
+        User.add_beer(recommend_beer, 0)
         recommend_new()
 
     return
@@ -549,10 +548,10 @@ def accept_beer_recommend(response):
     if response is True:
         try:
             """add beer to list of liked beers"""
-            search_exclude[recommend_beer] = 1
+            User.add_beer(recommend_beer, 1)
 
             """update user file"""
-            beer.update_userfile(search_exclude, username_directory, Username)
+            User.update_userfile(username_directory)
 
             """Clear yes/no buttons"""
             yes_button.grid_forget()
@@ -565,10 +564,10 @@ def accept_beer_recommend(response):
     elif response is False:
         try:
             """add beer to list of disliked beers"""
-            search_exclude[recommend_beer] = 2
+            User.add_beer(recommend_beer, 2)
 
             """update user file"""
-            beer.update_userfile(search_exclude, username_directory, Username)
+            User.update_userfile(username_directory)
 
             """update disliked_previous"""
             disliked_previous = "Previous beer added to 'disliked' list.\n\n"
@@ -613,16 +612,12 @@ def show_user():
 
     liked_string = 'Liked beers:\n'
     disliked_string = '\n\nDisliked beers:\n'
+    
+    for beer in User.get_liked():
+        liked_string += '\n %s' % (beer_dictionary[beer])
 
-    for key, code in search_exclude.iteritems():
-
-        if code == 1:
-            liked_beer_list = beer_dictionary[key]
-            liked_string += '\n %s' % (liked_beer_list[0].upper())
-
-        elif code == 2:
-            disliked_beer_list = beer_dictionary[key]
-            disliked_string += '\n %s' % (disliked_beer_list[0].upper())
+    for beer in User.get_disliked():
+        disliked_string += '\n %s' % (beer_dictionary[beer])
 
     print_string = liked_string + disliked_string
     print_to_console(print_string)

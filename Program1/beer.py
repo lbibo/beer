@@ -50,48 +50,6 @@ def user_average(search_exclude, dictionary):
 
     return user_average_stats
 
-#Returns a dictionary of liked/disliked beers from user file
-def pull_userfile_beers(search_exclude, username_directory, Username):
-
-    file = open(username_directory + Username + '.txt', 'r')
-
-    linecount = 0
-
-    for line in file:
-        splitline = line.split(',')
-        splitline[-1] = splitline[-1].rstrip()
-
-        if linecount == 0:
-
-            for line_item in splitline:
-
-                if line_item == 'LIKED:':
-                    continue
-                elif line_item == 'DISLIKED:':
-                    linecount += 1
-                    break
-                elif line_item == '\n':
-                    continue
-                else:
-                    search_exclude[line_item] = 1
-
-        elif linecount == 1:
-
-            for line_item in splitline:
-
-                if line_item == 'LIKED:':
-                    continue
-                elif line_item == 'DISLIKED:':
-                    continue
-                elif line_item == '\n':
-                    continue
-                else:
-                    search_exclude[line_item] = 2
-
-        linecount += 1
-
-    return search_exclude
-
 #recommend new beer from database using user stats
 def new_beer(uas, search_exclude, beer_dictionary):
     uas_ibu = uas[0]
@@ -148,36 +106,3 @@ def new_beer(uas, search_exclude, beer_dictionary):
         return new_recommendation_list
     except:
         return False
-
-#update user file
-def update_userfile(search_exclude, username_directory, username):
-
-    """Add new beer to user file (create list of keys coded to 'liked:' then join into new string)"""
-    newstring_list = []
-
-    for key, code in search_exclude.iteritems():
-
-        if code == 1:
-            newstring_list.append(key)
-
-    newstring_liked = ','.join(newstring_list)
-    newstring_liked = 'LIKED:,' + newstring_liked
-
-    """Add new beer to user file (create list of keys coded to 'disliked:' then join into new string)"""
-    newstring_list = []
-
-    for key, code in search_exclude.iteritems():
-
-        if code == 2:
-            newstring_list.append(key)
-
-    newstring_disliked = ','.join(newstring_list)
-    newstring_disliked = 'DISLIKED:,' + newstring_disliked
-
-    masterstring = newstring_liked + '\n' + newstring_disliked
-
-    file = open(username_directory + username + '.txt', 'w')
-    file.write(masterstring)
-    file.close()
-
-    return

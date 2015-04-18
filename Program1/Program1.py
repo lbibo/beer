@@ -12,19 +12,23 @@ import programfuncs
 #User file class
 class Userfile:
     def __init__(self, username, beer_dict = {}):
-        self.username = username
+        self.username = username.upper()
         self.beer_dict = beer_dict
 
+    #sets the active user name
     def set_username(self, user_input):
         self.username = user_input.upper()
 
+    #returns the active user name
     def get_username(self):
         return self.username
 
+    #creates the user file on initial creation
     def create_user(self, username_directory):
-        file = open(username_directory + self.username, 'w')
+        file = open(username_directory + self.username + '.txt', 'w')
         file.close()
 
+    #Populates user beer dictionary from keys saved in user file
     def login(self, username_directory):
         file = open(username_directory + self.username + '.txt', 'r')
 
@@ -65,9 +69,11 @@ class Userfile:
 
         file.close()
 
+    #add a beer key and corresponding liked/disliked code to the user beer dictionary
     def add_beer(self, key, code):
         beer_dict[key] = code
 
+    #save updated user beer dicitonary to user file
     def update_userfile(self, username_directory):
         liked_string = 'LIKED:'
         disliked_string = 'DISLIKED:'
@@ -88,6 +94,7 @@ class Userfile:
         file.write(master_string)
         file.close()
 
+    #returns a list of keys for beers user has liked
     def get_liked(self):
         liked_list = []
 
@@ -98,6 +105,7 @@ class Userfile:
 
         return liked_list
 
+    #returns a list of keys for beers user has disliked
     def get_disliked(self):
         disliked_list = []
 
@@ -107,6 +115,10 @@ class Userfile:
                 disliked_list.append[key]
 
         return disliked_list
+    
+    #returns a list of average stats for beers user has liked
+    def get_user_average_stats(self):
+        pass
 
 #gets the current file path
 current_directory = os.getcwd()
@@ -193,7 +205,7 @@ def existingUser_login(event):
     global User
 
     x = UserStr.get()
-    User = Username.set_username(x)
+    User = Userfile(x)
 
     if programfuncs.check_availableUser(User.get_username(), Username_list) is False:
         """read beers from user file into search exclusion list"""
@@ -211,7 +223,7 @@ def existingUser_login(event):
         print_to_console("Logged in.")
 
         """"Set login header"""
-        UserLabelStr.set('Logged in as ' + Username)
+        UserLabelStr.set('Logged in as ' + User.get_username())
     else:
         """Pop up "No User Found." message box."""
         ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % User.get_username())
@@ -224,7 +236,7 @@ def existingUser_login(event):
             enable_new_beer_entry()
 
             """update login information"""
-            UserLabelStr.set('Logged in as ' + Username)
+            UserLabelStr.set('Logged in as ' + User.get_username())
             login_screen_active = False
             login_buttons.grid_forget()
             new_entry_button.grid(row = 3, column = 0, sticky = 'w')
@@ -236,7 +248,7 @@ def existingUser_loginbutton():
     global User
 
     x = UserStr.get()
-    User = Username.set_username(x)
+    User = Userfile(x)
 
     if programfuncs.check_availableUser(User.get_username(), Username_list) is False:
         """read beers from user file into search exclusion list"""
@@ -254,7 +266,7 @@ def existingUser_loginbutton():
         print_to_console("Logged in.")
 
         """"Set login header"""
-        UserLabelStr.set('Logged in as ' + Username)
+        UserLabelStr.set('Logged in as ' + User.get_username())
     else:
         """Pop up "No User Found." message box."""
         ask_new_user = tkMessageBox.askquestion("Username not found.", "Username not found. \n Create one with the name %s?" % User.get_username())
@@ -267,7 +279,7 @@ def existingUser_loginbutton():
             enable_new_beer_entry()
 
             """update login information"""
-            UserLabelStr.set('Logged in as ' + Username)
+            UserLabelStr.set('Logged in as ' + User.get_username())
             login_screen_active = False
             login_buttons.grid_forget()
             new_entry_button.grid(row = 3, column = 0, sticky = 'w')

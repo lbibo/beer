@@ -11,9 +11,9 @@ import programfuncs
 
 #User file class
 class Userfile:
-    def __init__(self, username, beer_dict = {}):
+    def __init__(self, username, user_dict = {}):
         self.username = username.upper()
-        self.beer_dict = beer_dict
+        self.user_dict = user_dict
 
     #sets the active user name
     def set_username(self, user_input):
@@ -22,6 +22,10 @@ class Userfile:
     #returns the active user name
     def get_username(self):
         return self.username
+
+    #returns the user dictionary
+    def get_dict(self):
+        return self.user_dict
 
     #creates the user file on initial creation
     def create_user(self, username_directory):
@@ -50,7 +54,7 @@ class Userfile:
                     elif line_item == '\n':
                         continue
                     else:
-                        beer_dict[line_item] = 1
+                        self.user_dict[line_item] = 1
 
             elif linecount == 1:
 
@@ -63,7 +67,7 @@ class Userfile:
                     elif line_item == '\n':
                         continue
                     else:
-                        beer_dict[line_item] = 2
+                        self.user_dict[line_item] = 2
 
             linecount += 1
 
@@ -71,7 +75,7 @@ class Userfile:
 
     #add a beer key and corresponding liked/disliked code to the user beer dictionary
     def add_beer(self, key, code):
-        beer_dict[key] = code
+        self.user_dict[key] = code
 
     #save updated user beer dicitonary to user file
     def update_userfile(self, username_directory):
@@ -79,7 +83,9 @@ class Userfile:
         disliked_string = 'DISLIKED:'
         to_try_string = 'TO TRY:'
 
-        for key, code in beer_dict.iteritems():
+        dictionary = self.user_dict
+
+        for key, code in dictionary.items():
 
             if code == 1:
                 liked_string += ',' + str(key)
@@ -97,28 +103,69 @@ class Userfile:
     #returns a list of keys for beers user has liked
     def get_liked(self):
         liked_list = []
+        
+        dictionary = self.user_dict
 
-        for key, code in beer_dict.iteritems:
+        for key, code in dictionary.items():
 
             if code == 1:
-                liked_list.append[key]
+                liked_list.append(key)
 
         return liked_list
 
     #returns a list of keys for beers user has disliked
     def get_disliked(self):
         disliked_list = []
+        
+        dictionary = self.user_dict
 
-        for key, code in beer_dict.iteritems:
+        for key, code in dictionary.items():
 
             if code == 2:
-                disliked_list.append[key]
+                disliked_list.append(key)
 
         return disliked_list
     
+    #returns a list of keys for beers user has liked
+    def get_to_try(self):
+        to_try_list = []
+        
+        dictionary = self.user_dict
+
+        for key, code in dictionary.items():
+
+            if code == 3:
+                to_try_list.append(key)
+
+        return to_try_list
+
     #returns a list of average stats for beers user has liked
     def get_user_average_stats(self):
-        pass
+        stats_total_list = [0, 0]
+        count = 0
+        
+        dictionary = self.user_dict
+
+        for key, code in dictionary.items():
+            temp_list = []
+
+            #makes sure the user liked the beer
+            if code == 1:
+                beer_entry = dictionary[key]
+                count += 1
+
+                temp_list.append(beer_entry[1])
+                temp_list.append(beer_entry[2])
+                #comment out unil color is implemented
+                #temp_list.append(beer_entry[3])
+                stats_total_list[0] += float(temp_list[0])
+                stats_total_list[1] += float(temp_list[1])
+
+        user_average = [0, 0]
+        user_average[0] = stats_total_list[0] / count
+        user_average[1] = stats_total_list[1] / count
+
+        return user_average
 
 #gets the current file path
 current_directory = os.getcwd()
@@ -130,8 +177,6 @@ Username_list = os.listdir(username_directory)
 database = current_directory + '/database.txt'
 #create a dictionary of keys/beers
 beer_dictionary = beer.create_beer_dictionary()
-#create list for search exclusion
-search_exclude = {}
 #create string to add to beginning of recommend string to reflect dislike of previous recommendation
 disliked_previous = ""
 #set global active settings
@@ -321,14 +366,14 @@ def input_button_click():
 
     """find beer in database containing user's input string"""
     beer_selection_list = []
-    for dictkey, beer_data in beer_dictionary.iteritems():
+    for dictkey, beer_data in beer_dictionary.items():
         name = beer_data[0].lower()
         lower_input = input.lower()
 
         if str(lower_input) in str(name):
             beer_selection_list.append([dictkey, 0])
 
-            for userkey, code in search_exclude.iteritems():
+            for userkey, code in User.get_dict().items():
                 if str(userkey) == str(dictkey):
                     beer_selection_list.remove([dictkey, 0])
 
@@ -364,14 +409,14 @@ def input_enter(event):
 
     """find beer in database containing user's input string"""
     beer_selection_list = []
-    for dictkey, beer_data in beer_dictionary.iteritems():
+    for dictkey, beer_data in beer_dictionary.items():
         name = beer_data[0].lower()
         lower_input = input.lower()
 
         if str(lower_input) in str(name):
             beer_selection_list.append([dictkey, 0])
 
-            for userkey, code in search_exclude.iteritems():
+            for userkey, code in User.get_dict().items():
                 if str(userkey) == str(dictkey):
                     beer_selection_list.remove([dictkey, 0])
 
@@ -412,29 +457,29 @@ def enable_beer_found_buttons():
 
 #Accepts entry, adds to user file
 def accept_beer_found(response):
-    global search_exclude, yes_button, no_button, found_key, average_list, has_profile
+    global yes_button, no_button, found_key, has_profile
 
     if response is True:
-        try:
-            search_exclude[found_key] = 1
-            """update user file"""
-            beer.update_userfile(search_exclude, username_directory, Username)
-            """Clear yes/no buttons"""
-            yes_button.grid_forget()
-            no_button.grid_forget()
-            print_to_console("Beer added to user file.")
-            if has_profile is False:
-                has_profile = True
-                new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
-                show_user_button.grid(row = 3, column = 2, sticky = 'e')
-        except:
-            print_to_console("Error 7")
+        #try:
+        User.add_beer(found_key, 1)
+        """update user file"""
+        User.update_userfile(username_directory)
+        """Clear yes/no buttons"""
+        yes_button.grid_forget()
+        no_button.grid_forget()
+        print_to_console("Beer added to user file.")
+        if has_profile is False:
+            has_profile = True
+            new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
+            show_user_button.grid(row = 3, column = 2, sticky = 'e')
+        #except:
+        #    print_to_console("Error 7")
     elif response is False:
         try:
             yes_button.grid_forget()
             no_button.grid_forget()
             enable_new_beer_entry()
-            search_exclude[found_key] = 0
+            User.add_beer(found_key, 0)
         except:
             pass
     else:
@@ -444,7 +489,7 @@ def accept_beer_found(response):
 
 #Recommend new beer
 def recommend_new():
-    global Userfile, yes_button, no_button, recommend_beer, search_exclude, disliked_previous
+    global Userfile, yes_button, no_button, recommend_beer, disliked_previous
     
     """Reset input controls"""
     try:
@@ -456,11 +501,11 @@ def recommend_new():
         pass
 
     enable_recommend_buttons1()
-    user_average_stats = beer.user_average(search_exclude, beer_dictionary)
+    user_average_stats = User.get_user_average_stats()    
 
     #try:
     """Get a list of beers within the smallest range that meets all user criteria"""
-    new_recommendation_list = beer.new_beer(user_average_stats, search_exclude, beer_dictionary)
+    new_recommendation_list = beer.new_beer(user_average_stats, User.get_dict(), beer_dictionary)
 
     """Pick a random beer from the returned list"""
     if len(new_recommendation_list) == 0:
@@ -624,14 +669,21 @@ def show_user():
 
     liked_string = 'Liked beers:\n'
     disliked_string = '\n\nDisliked beers:\n'
+    to_try_string = '\n\nSaved to try later:\n'
     
     for beer in User.get_liked():
-        liked_string += '\n %s' % (beer_dictionary[beer])
+        beer_name = beer_dictionary[beer][0]
+        liked_string += '\n %s' % (beer_name.upper())
 
     for beer in User.get_disliked():
-        disliked_string += '\n %s' % (beer_dictionary[beer])
+        beer_name = beer_dictionary[beer][0]
+        disliked_string += '\n %s' % (beer_name.upper())
 
-    print_string = liked_string + disliked_string
+    for beer in User.get_to_try():
+        beer_name = beer_dictionary[beer][0]
+        to_try_string += '\n %s' % (beer_name.upper())        
+
+    print_string = liked_string + disliked_string + to_try_string
     print_to_console(print_string)
 
     return

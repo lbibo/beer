@@ -151,7 +151,7 @@ class Userfile:
 
             #makes sure the user liked the beer
             if code == 1:
-                beer_entry = dictionary[key]
+                beer_entry = beer_dictionary[key]
                 count += 1
 
                 temp_list.append(beer_entry[1])
@@ -670,6 +670,15 @@ def show_user():
     liked_string = 'Liked beers:\n'
     disliked_string = '\n\nDisliked beers:\n'
     to_try_string = '\n\nSaved to try later:\n'
+
+    #reset screen
+    try:
+        yes_button.grid_forget()
+        no_button.grid_forget()
+        User_input_entry.grid_forget()
+        input_button.grid_forget()
+    except:
+        pass
     
     for beer in User.get_liked():
         beer_name = beer_dictionary[beer][0]

@@ -22,7 +22,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="beer.py" />
     <Compile Include="Program1.py" />
+    <Compile Include="programfuncs.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Users\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="beer.pyc" />
+    <Content Include="database.txt" />
+    <Content Include="programfuncs.pyc" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

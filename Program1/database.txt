@@ -34,7 +34,7 @@
 000034,Anacortes Extra Special Bitter (ESB),35,5.5,20
 000035,Anderson Valley 20th Anniversary Imperial IPA,-1,8.7,20
 000036,Anderson Valley Boont ESB (Formerly Belks ESB),61,6.8,20
-000037,Anderson Valley Heelch O’ Hops,100,8.7,20
+000037,Anderson Valley Heelch Oï¿½ Hops,100,8.7,20
 000038,anderson valley high rollers wheat,4.4,5.3,20
 000039,Appalachian ABC ESB,-1,5.3,20
 000040,Arbor 500 Minute IPA,-1,10.7,20
@@ -45,7 +45,7 @@
 000045,Arcadia Hop Rocket 11th Anniversary Ale,-1,9,20
 000046,Arcadia Hopmouth Double IPA,76,8.1,20
 000047,Arcadia Lake Superior ESB,-1,5.5,20
-000048,Argus Clyde’s Ale ESB,-1,5.5,20
+000048,Argus Clydeï¿½s Ale ESB,-1,5.5,20
 000049,Armadillo FUPA,93,8.3,20
 000050,Asheville Roland,22.2,5,20
 000051,Ass Kisser Double IPA,-1,9.2,20
@@ -140,7 +140,7 @@
 000140,Bobcat Cafe Brickwall Harvest Double IPA,100,9.8,20
 000141,Boneyard Hop Venom,70,8.9,20
 000142,Boneyard Notorious,80,12,20
-000143,Boquébière Hopkins Double I.P.A.,90,9.5,20
+000143,Boquï¿½biï¿½re Hopkins Double I.P.A.,90,9.5,20
 000144,Boulder Beer Mojo Risin,-1,10.5,20
 000145,Boulder Beer The Great American Beer Festival 25th Year Beer,-1,7.6,20
 000146,Boulevard Double-Wide IPA,-1,8.5,20
@@ -450,7 +450,7 @@
 000450,Harvest Moon Charlie Russell Red,-1,-1,20
 000451,Harvest Moon Citra Double IPA,-1,8.3,20
 000452,Harvest Moon Columbus Double IPA,-1,8,20
-000453,Harvest Moon Hops² Double IPA,-1,8.3,20
+000453,Harvest Moon Hopsï¿½ Double IPA,-1,8.3,20
 000454,Harveys Armada Ale,-1,4.5,20
 000455,Harveys Southdown Harvest Ale,-1,5,20
 000456,Harveys Star of Eastbourne,-1,5,20
@@ -644,7 +644,7 @@
 000644,Mikkeller 1000 IBU,1000,9.6,20
 000645,Mikkeller 1000 IBU Barrel Aged,1000,9.6,20
 000646,Mikkeller Drikkeriget DIPA,-1,10.1,20
-000647,Millstream Hop² Double IPA,85,7.5,20
+000647,Millstream Hopï¿½ Double IPA,85,7.5,20
 000648,Millys Tavern Hopzilla,100,8.1,20
 000649,Mishawaka Chinook Imperial IPA,-1,8,20
 000650,Mishawaka Loopy Lupilin,95,9.5,20
@@ -694,7 +694,7 @@
 000694,New Albanian Hoptimus,100,10.7,20
 000695,New Albanian Yakima,130,7.5,20
 000696,New Belgium / Elysian The Trip XIV Imperial Fresh Hop,-1,8.6,20
-000697,New Belgium 2° Below Winter Ale,32,6.6,20
+000697,New Belgium 2ï¿½ Below Winter Ale,32,6.6,20
 000698,New Belgium Rampant Imperial IPA,85,8.5,20
 000699,new belgium red hoptober,60,6,20
 000700,New England Gandhi-Bot Double IPA,85,8.8,20
@@ -975,7 +975,7 @@
 000975,Three Floyds Dreadnaught Imperial IPA,100,9.5,20
 000976,Thunder Canyon ESB,-1,-1,20
 000977,titletown johnny,55,5,20
-000978,To Øl/Mikkeller Overall IIPA,408,10.5,20
+000978,To ï¿½l/Mikkeller Overall IIPA,408,10.5,20
 000979,Toppling Goliath Biter Double IPA,-1,154,20
 000980,Town Hall Big Dog,-1,8.2,20
 000981,Town Hall Broken Paddle ESB,-1,5.1,20

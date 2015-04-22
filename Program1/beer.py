@@ -6,7 +6,7 @@ def create_beer_dictionary():
     beer_dictionary = {}
 
     for line in file:
-        entry = line.split(',')
+        entry = line.split('\t')
         beer_dictionary[entry[0]] = [entry[1], entry[2], entry[3], entry[4]]
 
     return beer_dictionary

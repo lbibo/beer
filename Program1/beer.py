@@ -75,6 +75,7 @@ def new_beer(uas, search_exclude, beer_dictionary):
         Doesn't test for color."""
         for key, beer in beer_dictionary.iteritems():
             add_beer = True
+
             try:
                 beer_ibu = float(beer[1])
                 beer_abv = float(beer[2])

@@ -263,6 +263,7 @@ def existingUser_login(event):
         """remove login buttons, update login information"""
         new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
         show_user_button.grid(row = 3, column = 2, sticky = 'e')
+        show_saved_button.grid(row = 3, column = 2, sticky = 'w')
         new_entry_button.grid(row = 3, column = 0, sticky = 'w')
         login_buttons.grid_forget()
         print_to_console("Logged in.")
@@ -306,6 +307,7 @@ def existingUser_loginbutton():
         """remove login buttons, update login information"""
         new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
         show_user_button.grid(row = 3, column = 2, sticky = 'e')
+        show_saved_button.grid(row = 3, column = 2, sticky = 'w')
         new_entry_button.grid(row = 3, column = 0, sticky = 'w')
         login_buttons.grid_forget()
         print_to_console("Logged in.")
@@ -368,11 +370,14 @@ def input_button_click():
     beer_selection_list = []
     for dictkey, beer_data in beer_dictionary.items():
         name = beer_data[0].lower()
+        location = beer_data[4].lower()
         lower_input = input.lower()
 
-        if str(lower_input) in str(name):
+        #if the search string is in the beer's name, add to returned list (set to only include American beers)
+        if str(lower_input) in str(name) and 'usa' in str(location):
             beer_selection_list.append([dictkey, 0])
 
+            #if the selected beer is in the user's file, removed it from the returned list
             for userkey, code in User.get_dict().items():
                 if str(userkey) == str(dictkey):
                     beer_selection_list.remove([dictkey, 0])
@@ -411,11 +416,14 @@ def input_enter(event):
     beer_selection_list = []
     for dictkey, beer_data in beer_dictionary.items():
         name = beer_data[0].lower()
+        location = beer_data[4].lower()
         lower_input = input.lower()
 
-        if str(lower_input) in str(name):
+        #if the search string is in the beer's name, add to returned list (set to only include American beers)
+        if str(lower_input) in str(name) and 'usa' in str(location):
             beer_selection_list.append([dictkey, 0])
 
+            #if the selected beer is in the user's file, removed it from the returned list
             for userkey, code in User.get_dict().items():
                 if str(userkey) == str(dictkey):
                     beer_selection_list.remove([dictkey, 0])
@@ -434,6 +442,7 @@ Is this correct?""" % (str(found_beer[0]).upper())
         enable_beer_found_buttons()
     else:
         print_to_console("Beer not found.  Please try again.")
+        enable_new_beer_entry()
 
     """reset 'disliked_previous' modifier"""
     disliked_previous = ''
@@ -472,6 +481,7 @@ def accept_beer_found(response):
             has_profile = True
             new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
             show_user_button.grid(row = 3, column = 2, sticky = 'e')
+            show_saved_button.grid(row = 3, column = 2, sticky = 'w')
         #except:
         #    print_to_console("Error 7")
     elif response is False:
@@ -578,9 +588,9 @@ def tried_beer(response):
     if response is True:
         enable_recommend_buttons2()
         print_to_console("Did you like it?")
-    else:
-        User.add_beer(recommend_beer, 0)
-        recommend_new()
+    elif response is False:
+        print_to_console("Would you like to save it in your recommendation list?")
+        enable_recommend_buttons3()
 
     return
 
@@ -598,9 +608,26 @@ def enable_recommend_buttons2():
 
     return
 
+#Enable yes/no buttons upon new recommendation - "Would you like to save it in saved list?"
+def enable_recommend_buttons3():
+    global yes_button, no_button
+
+    """Create yes button"""
+    yes_button.grid(row = 0, sticky = W+S+E)
+    yes_button.configure(command = lambda: save_beer(True))
+
+    """Create no button"""
+    no_button.grid(row = 1, sticky = W+N+E)
+    no_button.configure(command = lambda: save_beer(False))
+
+    return
+
 #Accepts entry, adds to user file
 def accept_beer_recommend(response):
-    global yes_button, no_button, recommend_beer, has_profile, disliked_previous
+    global yes_button, no_button, recommend_beer, disliked_previous
+
+    yes_button.grid_forget()
+    no_button.grid_forget()
 
     if response is True:
         try:
@@ -610,9 +637,6 @@ def accept_beer_recommend(response):
             """update user file"""
             User.update_userfile(username_directory)
 
-            """Clear yes/no buttons"""
-            yes_button.grid_forget()
-            no_button.grid_forget()
             print_to_console("Beer added to user file.")
 
         except:
@@ -629,9 +653,6 @@ def accept_beer_recommend(response):
             """update disliked_previous"""
             disliked_previous = "Previous beer added to 'disliked' list.\n\n"
 
-            """remove yes/no buttons, reset user entry"""
-            yes_button.grid_forget()
-            no_button.grid_forget()
             recommend_new()
 
         except:
@@ -639,6 +660,32 @@ def accept_beer_recommend(response):
 
     else:
         print_to_console("Error 6")
+
+    return
+
+#Save beer in recommended list
+def save_beer():
+    global yes_button, no_button, recommend_beer, has_profile, disliked_previous
+
+    yes_button.grid_forget()
+    no_button.grid_forget()
+
+    if response is True:
+        try:
+            """add beer to list of liked beers"""
+            User.add_beer(recommend_beer, 3)
+
+            """update user file"""
+            User.update_userfile(username_directory)
+
+            print_to_console("Beer added to saved list.")
+
+        except:
+            print_to_console("Error 7")
+            
+    elif response is False:
+
+        recommend_new()
 
     return
 
@@ -669,7 +716,6 @@ def show_user():
 
     liked_string = 'Liked beers:\n'
     disliked_string = '\n\nDisliked beers:\n'
-    to_try_string = '\n\nSaved to try later:\n'
 
     #reset screen
     try:
@@ -688,12 +734,30 @@ def show_user():
         beer_name = beer_dictionary[beer][0]
         disliked_string += '\n %s' % (beer_name.upper())
 
+    print_string = liked_string + disliked_string
+    print_to_console(print_string)
+
+    return
+
+#shows recommended beers
+def show_saved():
+
+    to_try_string = '\n\nSaved to try later:\n'
+
+    #reset screen
+    try:
+        yes_button.grid_forget()
+        no_button.grid_forget()
+        User_input_entry.grid_forget()
+        input_button.grid_forget()
+    except:
+        pass
+    
     for beer in User.get_to_try():
         beer_name = beer_dictionary[beer][0]
         to_try_string += '\n %s' % (beer_name.upper())        
 
-    print_string = liked_string + disliked_string + to_try_string
-    print_to_console(print_string)
+    print_to_console(to_try_string)
 
     return
 
@@ -736,6 +800,13 @@ show_user_button = Button(beerapp,
                      foreground = butcolor,
                      text = "Show user file",
                      command = show_user)
+
+#show saved beers
+show_saved_button = Button(beerapp,
+                     background = BGCOLOR,
+                     foreground = butcolor,
+                     text = "Show saved recommendations",
+                     command = show_saved)
 
 #exit button
 exit_button = Button(beerapp,

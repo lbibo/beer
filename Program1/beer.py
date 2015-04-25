@@ -7,48 +7,9 @@ def create_beer_dictionary():
 
     for line in file:
         entry = line.split('\t')
-        beer_dictionary[entry[0]] = [entry[1], entry[2], entry[3], entry[4]]
+        beer_dictionary[entry[0]] = [entry[1], entry[2], entry[3], entry[4], entry [5]]
 
     return beer_dictionary
-
-#create a list with average stats for user 'liked' beers
-def user_average(search_exclude, dictionary):
-    count = 0
-    ibu = 0
-    abv = 0
-
-    """[0] = ibu, [1] = abv, [2] = color (not working yet)"""
-    user_average_stats = [0, 0]
-
-    for key, code in search_exclude.iteritems():
-
-        """a code of 1 means it is a beer the user has liked."""
-        if code == 1:
-            try:
-                current_key = dictionary[key]
-                user_average_stats[0] += float(current_key[1])
-                user_average_stats[1] += float(current_key[2])
-                count += 1
-            except:
-                continue
-
-    try:
-        user_average_stats[0] = user_average_stats[0] / count
-    except:
-        user_average_stats[0] = "Error 10"
-
-    try:
-        user_average_stats[1] = user_average_stats[1] / count
-    except:
-        user_average_stats[1] = "Error 10"
-
-    ### commented out until we find a way to add color coding ###
-    #try:
-    #    user_average.append(color / count)
-    #except:
-    #    user_average.append("?\n")
-
-    return user_average_stats
 
 #recommend new beer from database using user stats
 def new_beer(uas, search_exclude, beer_dictionary):
@@ -62,8 +23,6 @@ def new_beer(uas, search_exclude, beer_dictionary):
 
     #continue increasing variance for ibu and abv until a match is found
     while len(new_recommendation_list) == 0:
-        ibu_variance += 1
-        abv_variance += 0.5
 
         #If the ibu variance has hit 50, there are no more beers to choose from.
         if ibu_variance == 50:
@@ -74,6 +33,9 @@ def new_beer(uas, search_exclude, beer_dictionary):
         Currently only works if the database has a number for both ibu and abv.
         Doesn't test for color."""
         for key, beer in beer_dictionary.iteritems():
+            #only return American beers with accurate IBUs and ABVs - 
+            if (float(beer[1]) == -1.0) or (float(beer[2]) == -1.0) or (not ('USA' in str(beer[4]))):
+                continue
             add_beer = True
 
             try:
@@ -102,6 +64,10 @@ def new_beer(uas, search_exclude, beer_dictionary):
 
             except:
                 continue
+
+        #increase variance variables after each loop so the first loop can run without any variance
+        ibu_variance += 1
+        abv_variance += 0.5
 
     try:
         return new_recommendation_list

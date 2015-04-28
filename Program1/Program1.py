@@ -396,7 +396,6 @@ Is this correct?""" % (str(found_beer[0]).upper())
         enable_beer_found_buttons()
     else:
         print_to_console("Beer not found.  Please try again.")
-        enable_new_beer_entry()
 
     """reset 'disliked_previous' modifier"""
     disliked_previous = ''
@@ -442,7 +441,6 @@ Is this correct?""" % (str(found_beer[0]).upper())
         enable_beer_found_buttons()
     else:
         print_to_console("Beer not found.  Please try again.")
-        enable_new_beer_entry()
 
     """reset 'disliked_previous' modifier"""
     disliked_previous = ''
@@ -519,7 +517,7 @@ def recommend_new():
 
     """Pick a random beer from the returned list"""
     if len(new_recommendation_list) == 0:
-        ### No new beer found.  This should never happen unless the variation variables are not increasing properly
+        ### No new beer found.  This should never happen unless the variation variables are not increasing properly or we've run out of beers.
         yes_button.grid_forget()
         no_button.grid_forget()
         recommend_string = "Beer search error: no beers found."
@@ -664,7 +662,7 @@ def accept_beer_recommend(response):
     return
 
 #Save beer in recommended list
-def save_beer():
+def save_beer(response):
     global yes_button, no_button, recommend_beer, has_profile, disliked_previous
 
     yes_button.grid_forget()
@@ -684,7 +682,8 @@ def save_beer():
             print_to_console("Error 7")
             
     elif response is False:
-
+        """add beer to list of searched beers, recommend a new beer"""
+        User.add_beer(recommend_beer, 0)
         recommend_new()
 
     return

@@ -204,9 +204,10 @@ beerapp = Tk()
 beerapp.resizable(width = FALSE, height = FALSE)
 beerapp.title("Beer")
 beerapp.configure(background = BGCOLOR)
-beerapp.columnconfigure(0, weight = 1)
-beerapp.columnconfigure(1, weight = 1)
-beerapp.columnconfigure(2, weight = 1)
+beerapp.columnconfigure(0, minsize = int(WIDTH / 4), weight = 0)
+beerapp.columnconfigure(1, minsize = int(WIDTH / 4), weight = 0)
+beerapp.columnconfigure(2, minsize = int(WIDTH / 4), weight = 0)
+beerapp.columnconfigure(3, minsize = int(WIDTH / 4), weight = 0)
 beerapp.rowconfigure(0, weight = 1)
 beerapp.rowconfigure(1, weight = 1)
 beerapp.rowconfigure(2, weight = 1)
@@ -215,22 +216,22 @@ beerapp.rowconfigure(2, weight = 1)
 
 #create login screen
 login_buttons = Frame(beerapp, background = BGCOLOR, padx = 5)
-login_buttons.grid(row = 1, column = 0)
-login_buttons.columnconfigure(0, minsize = int(WIDTH / 3), weight = 0)
+login_buttons.grid(row = 1, column = 0, columnspan = 1)
+login_buttons.columnconfigure(0, minsize = int(WIDTH / 4), weight = 0)
 login_buttons.rowconfigure(0, minsize = int(HEIGHT / 3), weight = 0)
 login_buttons.rowconfigure(1, minsize = int(HEIGHT / 3), weight = 0)
 
 #create user input frame
 user_input_frame = Frame(beerapp, background = BGCOLOR, padx = 5)
 user_input_frame.grid(row = 1, column = 0)
-user_input_frame.columnconfigure(0, minsize = int(WIDTH / 3), weight = 0)
+user_input_frame.columnconfigure(0, minsize = int(WIDTH / 4), weight = 0)
 user_input_frame.rowconfigure(0, minsize = int(HEIGHT / 3), weight = 0)
 user_input_frame.rowconfigure(1, minsize = int(HEIGHT / 3), weight = 0)
 
 #create console output frame
 console_output_frame = Frame(beerapp, background = BGCOLOR, padx = 15, pady = 15)
-console_output_frame.grid(row = 1, rowspan = 2, column = 1, columnspan = 2)
-console_output_frame.columnconfigure(0, minsize = int((WIDTH / 3) * 2), weight = 0)
+console_output_frame.grid(row = 1, rowspan = 2, column = 1, columnspan = 3)
+console_output_frame.columnconfigure(0, minsize = int((WIDTH / 4) * 2), weight = 0)
 console_output_frame.rowconfigure(0, minsize = int((HEIGHT / 3) * 2), weight = 0)
 
 ###Functions###
@@ -261,10 +262,10 @@ def existingUser_login(event):
         has_profile = True
 
         """remove login buttons, update login information"""
-        new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
-        show_user_button.grid(row = 3, column = 2, sticky = 'e')
-        show_saved_button.grid(row = 3, column = 2, sticky = 'w')
-        new_entry_button.grid(row = 3, column = 0, sticky = 'w')
+        new_recommend_button.grid(row = 3, column = 0, sticky = 'w')
+        new_entry_button.grid(row = 3, column = 1)
+        show_user_button.grid(row = 3, column = 2)
+        show_saved_button.grid(row = 3, column = 3, sticky = 'e')
         login_buttons.grid_forget()
         print_to_console("Logged in.")
 
@@ -285,7 +286,7 @@ def existingUser_login(event):
             UserLabelStr.set('Logged in as ' + User.get_username())
             login_screen_active = False
             login_buttons.grid_forget()
-            new_entry_button.grid(row = 3, column = 0, sticky = 'w')
+            new_entry_button.grid(row = 3, column = 1, sticky = 'w')
 
     return
 
@@ -305,10 +306,10 @@ def existingUser_loginbutton():
         has_profile = True
 
         """remove login buttons, update login information"""
-        new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
-        show_user_button.grid(row = 3, column = 2, sticky = 'e')
-        show_saved_button.grid(row = 3, column = 2, sticky = 'w')
-        new_entry_button.grid(row = 3, column = 0, sticky = 'w')
+        new_recommend_button.grid(row = 3, column = 0, sticky = 'w')
+        new_entry_button.grid(row = 3, column = 1)
+        show_user_button.grid(row = 3, column = 2)
+        show_saved_button.grid(row = 3, column = 3, sticky = 'e')
         login_buttons.grid_forget()
         print_to_console("Logged in.")
 
@@ -329,7 +330,7 @@ def existingUser_loginbutton():
             UserLabelStr.set('Logged in as ' + User.get_username())
             login_screen_active = False
             login_buttons.grid_forget()
-            new_entry_button.grid(row = 3, column = 0, sticky = 'w')
+            new_entry_button.grid(row = 3, column = 1, sticky = 'w')
 
     return
 
@@ -477,9 +478,9 @@ def accept_beer_found(response):
         print_to_console("Beer added to user file.")
         if has_profile is False:
             has_profile = True
-            new_recommend_button.grid(row = 0, column = 0, sticky = 'w')
-            show_user_button.grid(row = 3, column = 2, sticky = 'e')
-            show_saved_button.grid(row = 3, column = 2, sticky = 'w')
+            new_recommend_button.grid(row = 3, column = 0, sticky = 'w')
+            show_user_button.grid(row = 3, column = 2)
+            show_saved_button.grid(row = 3, column = 3, sticky = 'e')
         #except:
         #    print_to_console("Error 7")
     elif response is False:
@@ -777,7 +778,7 @@ login_status = Label(beerapp,
                foreground = consolecolor,
                font = consolefont,
                textvariable = UserLabelStr)
-login_status.grid(row = 0, columnspan = 3)
+login_status.grid(row = 0, columnspan = 4)
 
 #new entry button
 new_entry_button = Button(beerapp,
@@ -813,7 +814,7 @@ exit_button = Button(beerapp,
                      foreground = butcolor,
                      text = "Exit",
                      command = quit_program)
-exit_button.grid(row = 0, column = 2, sticky = 'e')
+exit_button.grid(row = 0, column = 3, sticky = 'e')
 
 ###Create String Variables###
 
